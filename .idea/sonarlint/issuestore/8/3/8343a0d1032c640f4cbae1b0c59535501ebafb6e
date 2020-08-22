@@ -1,0 +1,22 @@
+
+B
+java:S1612",Replace this lambda with a method reference.(û¶°™
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Œüæòÿÿÿÿÿ
+>
+java:S1604"(Make this anonymous inner class a lambda(“¬§ö
+G
+java:S1612",Replace this lambda with a method reference.(÷‚Ô¥şÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ü¥ÈÊüÿÿÿÿ
+B
+java:S1612 ",Replace this lambda with a method reference.(§ÓÅÁ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+G
+java:S1602",Remove useless curly braces around statement(÷‚Ô¥şÿÿÿÿ
+G
+java:S1602",Remove useless curly braces around statement(ï£ÖÍùÿÿÿÿ
+L
+java:S1611"1Remove the parentheses around the "str" parameter(÷‚Ô¥şÿÿÿÿ
+B
+java:S1602",Remove useless curly braces around statement(û¶°™
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(§ÓÅÁ

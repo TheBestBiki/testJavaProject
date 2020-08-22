@@ -1,0 +1,14 @@
+
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(¾‡Œúÿÿÿÿ
+m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(½˜ú¼
+8
+java:S2386"Make this member "protected".(Ÿ‰ÌÂÿÿÿÿÿ
+O
+java:S47192"9Replace charset name argument with StandardCharsets.UTF_8(ÎÉš 
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙÜ´Ãùÿÿÿÿ
+m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(‹÷™î
+w
+java:S14884"aImmediately return this expression instead of assigning it to the temporary variable "resultStr".(õí©
+T
+java:S4719,"9Replace charset name argument with StandardCharsets.UTF_8(¼Ã‰ƒşÿÿÿÿ
+`	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(Ï«ÎŠùÿÿÿÿ

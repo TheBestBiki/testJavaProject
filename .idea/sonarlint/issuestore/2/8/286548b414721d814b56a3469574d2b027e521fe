@@ -1,0 +1,13 @@
+
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+B
+java:S1481	"'Remove this unused "aa" local variable.(ÚÑª‡ùÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…ì§Ä
+;
+java:S2129	" Remove this "String" constructor(ÚÑª‡ùÿÿÿÿ
+Q
+java:S1854	"6Remove this useless assignment to local variable "aa".(ÚÑª‡ùÿÿÿÿ

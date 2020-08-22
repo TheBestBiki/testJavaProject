@@ -1,0 +1,9 @@
+
+N
+java:S1481",Remove this unused "myDate2" local variable.(Áÿçøûÿÿÿÿ8€Ë…å½.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(®Àñî8€Ë…å½.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(±šÈ‘üÿÿÿÿ8ØŠ‘å½.
+]
+java:S1854";Remove this useless assignment to local variable "myDate2".(Áÿçøûÿÿÿÿ8€Ë…å½.
+Q
+java:S1144"5Remove this unused private "getSpecifiedTime" method.(í³±S8Œ“†å½.

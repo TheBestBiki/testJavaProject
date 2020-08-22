@@ -1,0 +1,12 @@
+
+K
+java:S2201")The return value of "split" must be used.(ÄËŞ°şÿÿÿÿ8×æ«ÚÀ.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(•õ‡õúÿÿÿÿ8„ëÒ˜».
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢ºÈ‡8ÆùæÙÀ.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8„ëÒ˜».
+W
+java:S2121"5Remove this "split" call; it has predictable results.(ÄËŞ°şÿÿÿÿ8×æ«ÚÀ.
+V
+java:S1144$"9Remove this unused private "testAddListNodeInMap" method.(½©÷à8Öğã».
+a
+java:S4143"DVerify this is the key that was intended; it was already set before.(×°¬8ÆùæÙÀ.
