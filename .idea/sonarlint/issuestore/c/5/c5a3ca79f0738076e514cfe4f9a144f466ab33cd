@@ -1,8 +1,14 @@
 
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(éçÄèşÿÿÿÿ8İ®¹.
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(âí±¿şÿÿÿÿ
 8
-java:S3626X"Remove this redundant jump.(ûÁİ…8¿Ëí¢·.
+java:S3626u"Remove this redundant jump.(ûÁİ…8¿Ëí¢·.
+R
+java:S1144,"0Remove this unused private "testSubList" method.(àÇ¿Òúÿÿÿÿ8‘ÔØ¡Ã.
 8
-java:S3626S"Remove this redundant jump.(ûÁİ…8§ÛŞ¢·.
-S	java:S1066"9Replace this use of System.out or System.err by a logger.(âí±¿şÿÿÿÿ
-N	java:S106I"9Replace this use of System.out or System.err by a logger.(áÂª
+java:S3626p"Remove this redundant jump.(ûÁİ…8§ÛŞ¢·.
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(áÂª
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ü˜Óˆ8óá¡Ã.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(°ÍèÏüÿÿÿÿ8ª³Ø¡Ã.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(éçÄèşÿÿÿÿ8İ®¹.
+\
+java:S11447":Remove this unused private "testStreamForeachList" method.(‰êı¯ıÿÿÿÿ8±³Õ¡Ã.

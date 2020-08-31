@@ -1,7 +1,16 @@
 
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(‘ÊÀ§øÿÿÿÿ8ÜÉ£Á.
+H
+java:S1144)"+Remove this unused private "testOf" method.(üº±Ñ8¦´ø¢Â.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ÔŞ¶ºøÿÿÿÿ8ˆø¢Â.
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(¶¿ä¨8³İßÁ.
+M
+java:S1144:"0Remove this unused private "testFlatMap" method.(ìçÏ˜8¦´ø¢Â.
 P
-java:S11440"3Remove this unused private "testGroupingBy" method.(ô›­¼8ú£Á.
+java:S1144M"3Remove this unused private "testGroupingBy" method.(ô›­¼8ú£Á.
+U
+java:S1854*"8Remove this useless assignment to local variable "test".(¬§•«8çß¨¤Á.
 V
-java:S28646"4Iterate over the "entrySet" instead of the "keySet".(š¤ÙÖùÿÿÿÿ8€áÁ.
-U	java:S1067"9Replace this use of System.out or System.err by a logger.(¶¿ä¨8³İßÁ.
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(‘ÊÀ§øÿÿÿÿ8ÜÉ£Á.
+java:S2864S"4Iterate over the "entrySet" instead of the "keySet".(š¤ÙÖùÿÿÿÿ8€áÁ.
+F
+java:S1481*")Remove this unused "test" local variable.(¬§•«8çß¨¤Á.

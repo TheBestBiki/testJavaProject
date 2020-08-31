@@ -3,6 +3,7 @@ package com.list;
 import com.String.StringA;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -15,7 +16,35 @@ public class TestList {
     public static void main(String[] args) {
         //main2(); // 测试增强for循环的指针
         //main3(); // 测试List，用foreach后还会不会按添加顺序读取展示
-        testStreamForeachList();
+        //testStreamForeachList();
+
+        //testSubList();
+
+        testStringBuilderAppendNull();
+
+
+
+    }
+
+    /**
+     * 测试append的值为null时会不会报错
+     * 结论：不会
+     */
+    private static void testStringBuilderAppendNull() {
+        StringBuilder builder = new StringBuilder();
+        String aa = null;
+        builder.append("11").append("/").append(aa).append("/").append("22");
+        System.out.println(builder.toString()); // 结果：11/null/22
+    }
+
+
+    /**
+     * 测试subList
+     */
+    private static void testSubList() {
+        List<Integer> aa = new ArrayList<>(Arrays.asList(0,1,2,3,4));
+        aa = aa.subList(2,4);
+        aa.stream().forEach(System.out :: println);
     }
 
     /**

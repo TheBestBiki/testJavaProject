@@ -1,9 +1,9 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıŞëøşÿÿÿÿ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(­ò›úûÿÿÿÿ8ÖëÙô¥.
-{
-java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ùòÏô¥.
 E
 java:S1172")Remove this unused method parameter "aa".(²æø}8ÉìÕô¥.
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ùòÏô¥.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(­ò›úûÿÿÿÿ8ÖëÙô¥.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıŞëøşÿÿÿÿ
 U	java:S106"9Replace this use of System.out or System.err by a logger.(â­Òƒ8ùòÏô¥.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(¡©°Âùÿÿÿÿ8ùòÏô¥.

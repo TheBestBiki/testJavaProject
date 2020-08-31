@@ -17,7 +17,56 @@ public class StreamTest {
     public static void main(String[] args) {
         /*StreamTest streamTest = new StreamTest();
         streamTest.testGroupingBy();*/
-        testFlatMap();
+
+        //testFlatMap();
+
+        //testOf();
+
+        //testHeap();
+
+        testSorted();
+    }
+
+    /**
+     * 测试排序
+     * 前减后， 或者前.compare(后)  表示升序
+     * 后减前， 或者后.compare(前)  表示降序
+     *
+     * sorted(Comparator.comparing(User::getAge))  根据age升序
+     * sorted(Comparator.comparing(User::getAge).reversed())  根据age降序
+     */
+    private static void testSorted() {
+        List<Integer> ints = new ArrayList<>(Arrays.asList(1,3,5,4,2));
+        //下面2种写法是等效的
+        ints.stream().sorted((e1,e2) -> e2.compareTo(e1)).forEach(System.out :: println);
+        ints.stream().sorted((e1,e2) -> e2 - e1).forEach(System.out :: println);
+
+        //当List是Integer类型时的双冒号写法
+        ints.stream().sorted(Comparator.comparing(Integer::intValue)).forEach(System.out :: println);
+
+    }
+
+    /**
+     * 测试什么时候执行
+     */
+    private static void testHeap() {
+        List<String> strs = new ArrayList<>(Arrays.asList("11","11","22"));
+        strs.stream().distinct();
+        for (String str : strs) {
+            System.out.println(str+"---");//11  11  22
+        }
+    }
+
+    /**
+     * 类似于List的add方法
+     */
+    private static void testOf() {
+        Stream<String> test = Stream.of("11", "22");
+        // 或者
+        List<String> strList = Stream.of("11", "22").collect(Collectors.toList());
+        //类似于
+        strList.add("11");
+        strList.add("22");
     }
 
     /**
@@ -25,6 +74,8 @@ public class StreamTest {
      *
      * 条件：集合里的对象里，也有List属性
      * flatMap的作用就是，将不同对象里相同的List属性，合成一个大的List
+     *
+     * 一般用来取集合里面不同对象的所有相同list
      */
     private static void testFlatMap() {
         List<TestClass> tests = new ArrayList<>();
@@ -56,6 +107,11 @@ public class StreamTest {
         }
     }
 
+    /**
+     * 构造Key
+     * @param item
+     * @return
+     */
     private String genKey(StringA item) {
         StringBuilder builder = new StringBuilder();
         builder.append(item.getAa()).append("/").append(item.getBb());
