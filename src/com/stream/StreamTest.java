@@ -24,7 +24,31 @@ public class StreamTest {
 
         //testHeap();
 
-        testSorted();
+        //testSorted();
+
+        //testDistinctObject();
+
+        Map<String,String> map = new HashMap<>();
+        System.out.println(map.get(null));
+
+    }
+
+    /**
+     * 测试用流去重对象
+     */
+    private static void testDistinctObject() {
+        List<TestClass> lists = new ArrayList<>();
+        lists.add(new TestClass("11"));
+        lists.add(new TestClass("11"));
+        Map<String, List<TestClass>> map = lists.stream().collect(Collectors.groupingBy(TestClass::toString));
+        map.entrySet().forEach(entry->{
+            entry.getValue().forEach(System.out ::println);
+        });
+
+        List<String> lists2 = new ArrayList<>();
+        lists2.add("11");
+        lists2.add("11");
+        lists2.stream().distinct().forEach(System.out :: println);
     }
 
     /**

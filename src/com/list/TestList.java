@@ -1,6 +1,7 @@
 package com.list;
 
 import com.String.StringA;
+import com.stream.TestClass;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,10 +21,36 @@ public class TestList {
 
         //testSubList();
 
-        testStringBuilderAppendNull();
+        //testStringBuilderAppendNull();
 
+        //testForeach();
 
+        //testAddSameObjects();
 
+    }
+
+    /**
+     * 测试添加一个对象，将该对象修改后，再重新添加一遍
+     * 结果打印出来的2个对象指向的是同一个地址，打印的内容也一样
+     */
+    private static void testAddSameObjects() {
+        List<TestClass> lists = new ArrayList<>();
+        TestClass testClass = new TestClass("111");
+        lists.add(testClass);
+        testClass.setPro2("22");
+        lists.add(testClass);
+        lists.stream().forEach(System.out ::println);
+    }
+
+    /**
+     * foreach可以改变list里面原有属性的属性
+     */
+    private static void testForeach() {
+        List<TestClass> aa = new ArrayList<>();
+        aa.forEach(e->{
+            e.setPro1("1111");
+        });
+        System.out.println("333");
     }
 
     /**

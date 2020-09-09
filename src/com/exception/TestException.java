@@ -10,7 +10,23 @@ import java.util.List;
 public class TestException {
 
     public static void main(String[] args) {
-        testManyCatch();
+        //testManyCatch();
+        TestExceptionGetMessage();
+
+    }
+
+    /**
+     * 测试打印 e 跟打印 e.getMessage的区别
+     *
+     * 结果：多用e.toString   e.getMessage打印的信息没有前者具体
+     */
+    private static void TestExceptionGetMessage() {
+        try{
+            String aa=null;
+            aa.equals(1);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
     }
 
     /**

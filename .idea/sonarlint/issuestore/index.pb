@@ -57,3 +57,6 @@ M
 src/com/stream/TestClass.java,7\2\72620ad01bf6a5cfee0cf51d5e41760a2c66d5e6
 B
 src/app.properties,1\a\1a74b5a9fd558fa1ee732d6873c8688ed4132ff3
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

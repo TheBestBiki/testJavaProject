@@ -73,4 +73,14 @@ public class TestClass {
     public void setStrList(List<String> strList) {
         this.strList = strList;
     }
+
+    @Override
+    public String toString() {
+        return "TestClass{" +
+                "pro1='" + pro1 + '\'' +
+                ", pro2='" + pro2 + '\'' +
+                ", pro3='" + pro3 + '\'' +
+                ", strList=" + strList +
+                '}';
+    }
 }
