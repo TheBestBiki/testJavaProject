@@ -1,32 +1,32 @@
 
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(«û¯ì8ˆ”æ˜Å.
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(–³ş8ùøõ•Å.
+V	java:S106‚"9Replace this use of System.out or System.err by a logger.(¶¿ä¨8³İßÁ.
+U	java:S106P"9Replace this use of System.out or System.err by a logger.(Ñ®§Ê8ˆø¢Â.
 Z	java:S106u"9Replace this use of System.out or System.err by a logger.(‘ÊÀ§øÿÿÿÿ8ÜÉ£Á.
-Z	java:S106A"9Replace this use of System.out or System.err by a logger.(‡Œğìùÿÿÿÿ8ıÁ¸™Ä.
-H
-java:S1144W"+Remove this unused private "testOf" method.(üº±Ñ8¦´ø¢Â.
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(¶Ëâåÿÿÿÿÿ8­²¯™Ä.
 W
 java:S2864"4Iterate over the "entrySet" instead of the "keySet".(š¤ÙÖùÿÿÿÿ8€áÁ.
-P
-java:S1144{"3Remove this unused private "testGroupingBy" method.(ô›­¼8ú£Á.
-U	java:S106-"9Replace this use of System.out or System.err by a logger.(–³ş8ùøõ•Å.
-F
-java:S1481X")Remove this unused "test" local variable.(¬§•«8çß¨¤Á.
 Z	java:S106B"9Replace this use of System.out or System.err by a logger.(»®ùıÿÿÿÿÿ8ıÁ¸™Ä.
 L
 java:S1144>"/Remove this unused private "testSorted" method.(ŸğÏ‚8íà«Ä.
-M
-java:S1144h"0Remove this unused private "testFlatMap" method.(ìçÏ˜8¦´ø¢Â.
-Z	java:S1063"9Replace this use of System.out or System.err by a logger.(ÆÄ¥¸şÿÿÿÿ8«ö¼•Å.
 O
 java:S1144L"-Remove this unused private "testHeap" method.(…—ÀÍøÿÿÿÿ8Ÿé•Ä.
+M
+java:S1144h"0Remove this unused private "testFlatMap" method.(ìçÏ˜8¦´ø¢Â.
+F
+java:S1481X")Remove this unused "test" local variable.(¬§•«8çß¨¤Á.
+P
+java:S1144{"3Remove this unused private "testGroupingBy" method.(ô›­¼8ú£Á.
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(‡Œğìùÿÿÿÿ8ıÁ¸™Ä.
 N
 java:S1602,",Remove useless curly braces around statement(âÑşùÿÿÿÿ8Ô¸õ•Å.
-U	java:S106P"9Replace this use of System.out or System.err by a logger.(Ñ®§Ê8ˆø¢Â.
-U
-java:S1854X"8Remove this useless assignment to local variable "test".(¬§•«8çß¨¤Á.
 T
 java:S3958N"2Refactor the code so this stream pipeline is used.(İÑüÿÿÿÿ8ëˆæ•Ä.
-V	java:S106‚"9Replace this use of System.out or System.err by a logger.(¶¿ä¨8³İßÁ.
-Z	java:S106E"9Replace this use of System.out or System.err by a logger.(¶Ëâåÿÿÿÿÿ8­²¯™Ä.
+U
+java:S1854X"8Remove this useless assignment to local variable "test".(¬§•«8çß¨¤Á.
 Y
 java:S1144'"7Remove this unused private "testDistinctObject" method.(üşªÈüÿÿÿÿ8¿”®˜Å.
-U	java:S106 "9Replace this use of System.out or System.err by a logger.(«û¯ì8ˆ”æ˜Å.
+H
+java:S1144W"+Remove this unused private "testOf" method.(üº±Ñ8¦´ø¢Â.
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(ÆÄ¥¸şÿÿÿÿ8«ö¼•Å.

@@ -1,24 +1,33 @@
 
-U	java:S106@"9Replace this use of System.out or System.err by a logger.(ü˜Óˆ8óá¡Ã.
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(œØîÛúÿÿÿÿ8àÚìçÄ.
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(—Ë†Ûûÿÿÿÿ8Ò¥•Å.
-Y
-java:S1144$"7Remove this unused private "testAddSameObjects" method.(½ı¬ìıÿÿÿÿ8ª£©•Å.
-]
-java:S1144<"@Remove this unused private "testStringBuilderAppendNull" method.(—òÍœ8ÅæçÄ.
-\
-java:S1144R":Remove this unused private "testStreamForeachList" method.(‰êı¯ıÿÿÿÿ8±³Õ¡Ã.
-S	java:S106n"9Replace this use of System.out or System.err by a logger.(âí±¿şÿÿÿÿ
-9
-java:S3626"Remove this redundant jump.(ûÁİ…8¿Ëí¢·.
-R
-java:S11440"0Remove this unused private "testForeach" method.(á°Çœøÿÿÿÿ8•Û¤•Å.
-Z	java:S106`"9Replace this use of System.out or System.err by a logger.(éçÄèşÿÿÿÿ8İ®¹.
 I
-java:S16022",Remove useless curly braces around statement(¼†ÔÓ8ÿÖëçÄ.
-R
-java:S1144G"0Remove this unused private "testSubList" method.(àÇ¿Òúÿÿÿÿ8‘ÔØ¡Ã.
-O	java:S106"9Replace this use of System.out or System.err by a logger.(áÂª
-Z	java:S106J"9Replace this use of System.out or System.err by a logger.(°ÍèÏüÿÿÿÿ8ª³Ø¡Ã.
+java:S1602A",Remove useless curly braces around statement(¼†ÔÓ8ÿÖëçÄ.
+]
+java:S1144K"@Remove this unused private "testStringBuilderAppendNull" method.(—òÍœ8ÅæçÄ.
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(éçÄèşÿÿÿÿ8İ®¹.
+:
+java:S2386"Make this member "protected".(Óá’í8æøˆäÇ.
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(—Ë†Ûûÿÿÿÿ8Ò¥•Å.
+x
+java:S1104"[Make NOT_SEND_STATUS a static final constant or non-public and provide accessors if needed.(Óá’í8æøˆäÇ.
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(°ÍèÏüÿÿÿÿ8ª³Ø¡Ã.
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(¬«í8ÇÜèŒÇ.
 9
-java:S3626‹"Remove this redundant jump.(ûÁİ…8§ÛŞ¢·.
+java:S3626š"Remove this redundant jump.(ûÁİ…8§ÛŞ¢·.
+R
+java:S1144V"0Remove this unused private "testSubList" method.(àÇ¿Òúÿÿÿÿ8‘ÔØ¡Ã.
+R
+java:S1144?"0Remove this unused private "testForeach" method.(á°Çœøÿÿÿÿ8•Û¤•Å.
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(œØîÛúÿÿÿÿ8àÚìçÄ.
+O	java:S106"9Replace this use of System.out or System.err by a logger.(áÂª
+w
+java:S3008"ZRename this field "NOT_SEND_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óá’í8æøˆäÇ.
+Y
+java:S11443"7Remove this unused private "testAddSameObjects" method.(½ı¬ìıÿÿÿÿ8ª£©•Å.
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(ü˜Óˆ8óá¡Ã.
+S	java:S106}"9Replace this use of System.out or System.err by a logger.(âí±¿şÿÿÿÿ
+\
+java:S1144a":Remove this unused private "testStreamForeachList" method.(‰êı¯ıÿÿÿÿ8±³Õ¡Ã.
+R
+java:S1444"5Make this "public static NOT_SEND_STATUS" field final(Óá’í8æøˆäÇ.
+9
+java:S3626Ÿ"Remove this redundant jump.(ûÁİ…8¿Ëí¢·.

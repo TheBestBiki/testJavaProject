@@ -3,6 +3,7 @@ package com.date;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -15,9 +16,7 @@ public class DateTest {
 
     public static void main(String[] args)  {
         //getSpecifiedTime();
-        Integer aa=111111110;
-        Integer bb=111111110;
-        System.out.println(aa.equals(bb));
+        System.out.println(getTodayDateJson());
     }
 
     /**
@@ -28,6 +27,22 @@ public class DateTest {
         Date myDate1 = dateFormat1.parse("2009-06-01");
         Date myDate2 = new Date();
         System.out.println(myDate1.after(new Date()));
+    }
+
+    /**
+     * 获取今天的日期Date, 不包括时间. 如yyyy-MM-dd 00:00:00
+     *
+     * @return yyyy-MM-dd 00:00:00
+     */
+    public static String getTodayDateJson() {
+        Date date = new Date();
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        calendar.add(Calendar.DAY_OF_MONTH, -1);
+        date = (Date) calendar.getTime();
+        SimpleDateFormat formatter  = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return "{\"updateTime\":\""+formatter.format(date)+"\"}";
+        //return "{\"updateTime\":\"2021-12-27 18:27:04\"}";
     }
 
 }

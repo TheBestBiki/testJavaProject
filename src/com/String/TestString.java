@@ -1,5 +1,6 @@
 package com.String;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -13,6 +14,17 @@ public class TestString {
     public final static List<String> buyerList =  Arrays.asList("SCBUYER","11");
 
     public static void main(String[] args) {
+        String time = "2020-09-22 12:08:57";
+        System.out.println(time.substring(0,19));
+
+        String ss = null;
+        BigDecimal s = new BigDecimal(ss);
+        System.out.println( s.toString());
+        System.out.println( s.compareTo(new BigDecimal(0)) == 0);
+    }
+
+
+    //public static void main(String[] args) {
         /*
         String aa ="aa,bb";
         System.out.println(aa);
@@ -227,7 +239,7 @@ public class TestString {
         System.out.println(a.equals(aa));//true
         System.out.println(a==aa);//false
         */
-    }
+    //}
 
     private static boolean checkUserRole(List<String> roleList, List<String> userRoleList){
         List<String> userRoleCopy = new ArrayList<>();

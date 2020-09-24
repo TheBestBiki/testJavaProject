@@ -14,6 +14,9 @@ import java.util.List;
  */
 public class TestList {
 
+    public static List<String> NOT_SEND_STATUS = Arrays.asList("停产","临时停售","不销售","未发布");
+
+
     public static void main(String[] args) {
         //main2(); // 测试增强for循环的指针
         //main3(); // 测试List，用foreach后还会不会按添加顺序读取展示
@@ -27,6 +30,18 @@ public class TestList {
 
         //testAddSameObjects();
 
+        testContainsNull();
+
+    }
+
+    /**
+     * 测试contains的值为空时报错不
+     *
+     * 不报错，返回false
+     */
+    private static void testContainsNull() {
+        //List<String> aa = Arrays.asList("11","22");
+        System.out.println(NOT_SEND_STATUS.contains(null));
     }
 
     /**
