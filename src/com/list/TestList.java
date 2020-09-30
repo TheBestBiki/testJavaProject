@@ -2,10 +2,10 @@ package com.list;
 
 import com.String.StringA;
 import com.stream.TestClass;
+import org.apache.commons.collections.CollectionUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * @author o-Biki.huang
@@ -24,13 +24,57 @@ public class TestList {
 
         //testSubList();
 
+        //testSubListUtil();
+
         //testStringBuilderAppendNull();
 
         //testForeach();
 
         //testAddSameObjects();
 
-        testContainsNull();
+        //testContainsNull();
+
+        //testSetListValueInMethod();
+
+        String ss = "20201010-3";
+        System.out.println(ss.substring(9));
+
+        List<Integer> ii = new ArrayList<>(Arrays.asList(2,3,5));
+        // System.out.println(ii.stream().sorted((x,y)->(y.compareTo(x))).collect(Collectors.toList()).toString());
+        List<Integer> collect = ii.stream().sorted((x, y) -> (y.compareTo(x))).collect(Collectors.toList());
+        String s = "20200113"+"-"+(collect.get(0)+1);
+        System.out.println(s);
+
+    }
+
+    /**
+     * 方法外的List对象在其它方法里面赋值测试
+     *
+     * 方法外的List必须实例化
+     * 在其它方法里面用add才能给该List赋值
+     */
+    private static void testSetListValueInMethod() {
+        List<String> strs = new ArrayList<>();
+        testObject(strs);
+        System.out.println(strs);
+    }
+
+    private static void testObject(List<String> strs2) {
+        List<String> strs = new ArrayList<>();
+        strs.add("11");
+        strs.add("12");
+        strs2=strs; //这里用等于没用
+        strs2.addAll(strs2); //add才会改变外部strs2的值
+    }
+
+    /**
+     * 测试apache的subtract
+     * 结果：subtract里的第一、二个参数为空都不会报错
+     */
+    private static void testSubListUtil() {
+        List<String> baseList = new ArrayList<>(Arrays.asList("11","22"));
+        List<String> result = (List<String>)CollectionUtils.subtract(baseList,new ArrayList());
+        System.out.println(result.toString());
 
     }
 

@@ -16,8 +16,11 @@ public class DateTest {
 
     public static void main(String[] args)  {
         //getSpecifiedTime();
-        System.out.println(getTodayDateJson());
+        //System.out.println(getTodayDateJson());
+
     }
+
+
 
     /**
      * 获取指定时间

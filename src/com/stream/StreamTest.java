@@ -18,6 +18,8 @@ public class StreamTest {
         /*StreamTest streamTest = new StreamTest();
         streamTest.testGroupingBy();*/
 
+        testGroupingBy();
+
         //testFlatMap();
 
         //testOf();
@@ -119,16 +121,24 @@ public class StreamTest {
 
     /**
      * 测试流的分组
+     * 01--可以用流里的对象的字段来组装key
+     * 02--测试List<String>
      */
-    private void testGroupingBy() {
-        List<StringA> baseList = new ArrayList<>();
+    private static void testGroupingBy() {
+        // 01
+        /*List<StringA> baseList = new ArrayList<>();
         baseList.add(new StringA("bi","k","i"));
         baseList.add(new StringA("bi","k222","i"));
         baseList.add(new StringA("bi","k","i"));
         Map<String, List<StringA>> map = baseList.stream().collect(Collectors.groupingBy(this::genKey));
         for(String a : map.keySet()){
             System.out.println(a+"---------"+map.get(a));
-        }
+        }*/
+
+        List<String> strs = new ArrayList<>(Arrays.asList("11","22","33","22"));
+        Map<String, List<String>> map = strs.stream().collect(Collectors.groupingBy(String::toString));
+        System.out.println(map.toString());
+
     }
 
     /**

@@ -1,18 +1,18 @@
 
-b
-java:S2259"@A "NullPointerException" could be thrown; "aa" is nullable here.(¨Â¬ÿùÿÿÿÿ8‘©ÕßÆ.
-T
-java:S1144$"2Remove this unused private "testManyCatch" method.(ÂéĞ ùÿÿÿÿ8­ÕÏßÆ.
-L
-java:S2201"*The return value of "equals" must be used.(¨Â¬ÿùÿÿÿÿ8‘©ÕßÆ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8‘©ÕßÆ.
-T	java:S106)"9Replace this use of System.out or System.err by a logger.(Í–î8‚ì²Ô·.
 Y
 java:S2166
 "CRename this class to remove "Exception" or correct its inheritance.(ÔƒÜç
-x
-java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(¨Â¬ÿùÿÿÿÿ8‘©ÕßÆ.
+b
+java:S2259"@A "NullPointerException" could be thrown; "aa" is nullable here.(¨Â¬ÿùÿÿÿÿ8‘©ÕßÆ.
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(Á¹„8‚ì²Ô·.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8‘©ÕßÆ.
 ]
 java:S2259'"@A "NullPointerException" could be thrown; "aa" is nullable here.(ŸØĞ8‚ì²Ô·.
 o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â§ÏÛÿÿÿÿÿ8Ğ˜ÓßÆ.
-U	java:S106,"9Replace this use of System.out or System.err by a logger.(Á¹„8‚ì²Ô·.
+T	java:S106)"9Replace this use of System.out or System.err by a logger.(Í–î8‚ì²Ô·.
+T
+java:S1144$"2Remove this unused private "testManyCatch" method.(ÂéĞ ùÿÿÿÿ8­ÕÏßÆ.
+x
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(¨Â¬ÿùÿÿÿÿ8‘©ÕßÆ.
+L
+java:S2201"*The return value of "equals" must be used.(¨Â¬ÿùÿÿÿÿ8‘©ÕßÆ.

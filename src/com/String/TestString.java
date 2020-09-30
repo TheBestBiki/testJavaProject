@@ -1,5 +1,7 @@
 package com.String;
 
+import com.stream.TestClass;
+
 import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -14,13 +16,34 @@ public class TestString {
     public final static List<String> buyerList =  Arrays.asList("SCBUYER","11");
 
     public static void main(String[] args) {
-        String time = "2020-09-22 12:08:57";
+        /*String time = "2020-09-22 12:08:57";
         System.out.println(time.substring(0,19));
 
         String ss = null;
         BigDecimal s = new BigDecimal(ss);
         System.out.println( s.toString());
-        System.out.println( s.compareTo(new BigDecimal(0)) == 0);
+        System.out.println( s.compareTo(new BigDecimal(0)) == 0);*/
+
+        /*Byte aa = 2;
+        //Integer ac = (int)aa;
+        System.out.println(aa.equals((byte)2));
+
+        Double d = 2d;
+        System.out.println(d==2);*/
+
+        /*Date date = new Date("2016-08-12 00:00:00");
+        System.out.println(date);*/
+
+        String ss = "动图大大22";
+        System.out.println(ss.length());
+
+        TestClass testClass = new TestClass();
+        changeClass(testClass);
+        System.out.println(testClass.toString());
+    }
+
+    private static void changeClass(TestClass testClass) {
+        testClass.setPro1("1111");
     }
 
 
