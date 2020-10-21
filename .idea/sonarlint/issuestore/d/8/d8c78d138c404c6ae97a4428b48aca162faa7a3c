@@ -1,17 +1,17 @@
 
-O	java:S106"9Replace this use of System.out or System.err by a logger.(²à±¿
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
+U
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ÂÍú…ûÿÿÿÿ8ûÀôËÍ.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(Åõˆİ8ûÀôËÍ.
+3
+java:S2386"Make this member "protected".(–ÂÖ§
 @
 java:S1125")Remove the literal "false" boolean value.(ÌËÀ
 I
 java:S1144‹"2Remove this unused private "checkUserRole" method.(öÙîŠ
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÙŠ¢
-3
-java:S2386"Make this member "protected".(–ÂÖ§
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
-U
-java:S1155">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(²à±¿
 S
 java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(Åõˆİ8ûÀôËÍ.
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ÂÍú…ûÿÿÿÿ8ûÀôËÍ.

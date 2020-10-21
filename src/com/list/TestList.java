@@ -36,14 +36,18 @@ public class TestList {
 
         //testSetListValueInMethod();
 
-        String ss = "20201010-3";
+        /*String ss = "20201010-3";
         System.out.println(ss.substring(9));
 
         List<Integer> ii = new ArrayList<>(Arrays.asList(2,3,5));
         // System.out.println(ii.stream().sorted((x,y)->(y.compareTo(x))).collect(Collectors.toList()).toString());
         List<Integer> collect = ii.stream().sorted((x, y) -> (y.compareTo(x))).collect(Collectors.toList());
         String s = "20200113"+"-"+(collect.get(0)+1);
-        System.out.println(s);
+        System.out.println(s);*/
+
+        List<String> aa = new ArrayList<>();
+        System.out.println(aa.size());
+        System.out.println(aa.stream().map(a->a+"11").collect(Collectors.toList()));
 
     }
 
