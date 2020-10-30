@@ -1,14 +1,14 @@
 
-Q
-java:S1144"5Remove this unused private "getSpecifiedTime" method.(í³±S8Œ“†å½.
-]
-java:S1854 ";Remove this useless assignment to local variable "myDate2".(Áÿçøûÿÿÿÿ8€Ë…å½.
-U	java:S106!"9Replace this use of System.out or System.err by a logger.(®Àñî8€Ë…å½.
-D
-java:S1905."'Remove this unnecessary cast to "Date".(‚ôâë8ÔØãòË.
 N
 java:S1481 ",Remove this unused "myDate2" local variable.(Áÿçøûÿÿÿÿ8€Ë…å½.
-W
-java:S1854"5Remove this useless assignment to local variable "a".(¾Ö¯ıÿÿÿÿ8œıíõÓ.
+D
+java:S1905."'Remove this unnecessary cast to "Date".(‚ôâë8ÔØãòË.
 H
 java:S1481"&Remove this unused "a" local variable.(¾Ö¯ıÿÿÿÿ8œıíõÓ.
+]
+java:S1854 ";Remove this useless assignment to local variable "myDate2".(Áÿçøûÿÿÿÿ8€Ë…å½.
+W
+java:S1854"5Remove this useless assignment to local variable "a".(¾Ö¯ıÿÿÿÿ8œıíõÓ.
+Q
+java:S1144"5Remove this unused private "getSpecifiedTime" method.(í³±S8Œ“†å½.
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(®Àñî8€Ë…å½.

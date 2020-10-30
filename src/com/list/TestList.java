@@ -36,6 +36,8 @@ public class TestList {
 
         //testSetListValueInMethod();
 
+        // =============================================================
+
         /*String ss = "20201010-3";
         System.out.println(ss.substring(9));
 
@@ -45,9 +47,12 @@ public class TestList {
         String s = "20200113"+"-"+(collect.get(0)+1);
         System.out.println(s);*/
 
-        List<String> aa = new ArrayList<>();
+        /*List<String> aa = new ArrayList<>();
         System.out.println(aa.size());
-        System.out.println(aa.stream().map(a->a+"11").collect(Collectors.toList()));
+        System.out.println(aa.stream().map(a->a+"11").collect(Collectors.toList()));*/
+
+        Long aa = 2L;
+        System.out.println(aa >1L);
 
     }
 
@@ -73,11 +78,11 @@ public class TestList {
 
     /**
      * 测试apache的subtract
-     * 结果：subtract里的第一、二个参数为空都不会报错
+     * 结果：subtract里的第一、二个参数为【集合个数为0但不为null】都不会报错
      */
     private static void testSubListUtil() {
         List<String> baseList = new ArrayList<>(Arrays.asList("11","22"));
-        List<String> result = (List<String>)CollectionUtils.subtract(baseList,new ArrayList());
+        List<String> result = (List<String>)CollectionUtils.subtract(baseList,null);
         System.out.println(result.toString());
 
     }

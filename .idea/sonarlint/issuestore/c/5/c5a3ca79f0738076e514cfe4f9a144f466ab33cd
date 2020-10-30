@@ -1,49 +1,49 @@
 
-W
-java:S1144Z"5Remove this unused private "testContainsNull" method.(şı·øıÿÿÿÿ8Û²íıË.
-I
-java:S1602q",Remove useless curly braces around statement(¼†ÔÓ8ÿÖëçÄ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ü˜Óˆ8óá¡Ã.
-O	java:S106À"9Replace this use of System.out or System.err by a logger.(áÂª
-9
-java:S3626Ï"Remove this redundant jump.(ûÁİ…8¿Ëí¢·.
-Z	java:S106t"9Replace this use of System.out or System.err by a logger.(œØîÛúÿÿÿÿ8àÚìçÄ.
-L
-java:S3740P"/Provide the parametrized type for this generic.(¦ÔÇ8ÊŞ“ÿË.
-Z	java:S106i"9Replace this use of System.out or System.err by a logger.(—Ë†Ûûÿÿÿÿ8Ò¥•Å.
-Y
-java:S1144c"7Remove this unused private "testAddSameObjects" method.(½ı¬ìıÿÿÿÿ8ª£©•Å.
-x
-java:S1104"[Make NOT_SEND_STATUS a static final constant or non-public and provide accessors if needed.(Óá’í8æøˆäÇ.
-R
-java:S1144o"0Remove this unused private "testForeach" method.(á°Çœøÿÿÿÿ8•Û¤•Å.
-S
-java:S1144†"0Remove this unused private "testSubList" method.(àÇ¿Òúÿÿÿÿ8”ŸîıË.
-d
-java:S1226F"BIntroduce a new variable instead of reusing the parameter "strs2".(˜“µúÿÿÿÿ8ûßÏÌ.
-T	java:S106­"9Replace this use of System.out or System.err by a logger.(âí±¿şÿÿÿÿ
-[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(éçÄèşÿÿÿÿ8İ®¹.
-U	java:S106?"9Replace this use of System.out or System.err by a logger.(Ş§ş®8…¥ÒôÌ.
-G
-java:S2114G"%Remove or correct this "addAll" call.(‡ùÚœøÿÿÿÿ8İĞÏÌ.
-[	java:S106‰"9Replace this use of System.out or System.err by a logger.(°ÍèÏüÿÿÿÿ8ª³Ø¡Ã.
-:
-java:S2386"Make this member "protected".(Óá’í8æøˆäÇ.
-9
-java:S3626Ê"Remove this redundant jump.(ûÁİ…8§ÛŞ¢·.
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(®ÿ×’üÿÿÿÿ8¤”¸ıÌ.
-Y
-java:S1144<"=Remove this unused private "testSetListValueInMethod" method.(–à³>8‰«ÚôÌ.
-]
-java:S1144‘":Remove this unused private "testStreamForeachList" method.(‰êı¯ıÿÿÿÿ8±³Õ¡Ã.
-U	java:S106\"9Replace this use of System.out or System.err by a logger.(¬«í8ÇÜèŒÇ.
-U	java:S1061"9Replace this use of System.out or System.err by a logger.(µäÃ²8¾££‹Ñ.
-V
-java:S1144N"4Remove this unused private "testSubListUtil" method.(ÆÜ£¦ÿÿÿÿÿ8÷œ”ÊÌ.
-R
-java:S1444"5Make this "public static NOT_SEND_STATUS" field final(Óá’í8æøˆäÇ.
 w
 java:S3008"ZRename this field "NOT_SEND_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óá’í8æøˆäÇ.
 Z	java:S106Q"9Replace this use of System.out or System.err by a logger.(²ÄÓ«ıÿÿÿÿ8¢àÿË.
+[	java:S106‰"9Replace this use of System.out or System.err by a logger.(°ÍèÏüÿÿÿÿ8ª³Ø¡Ã.
+O	java:S106À"9Replace this use of System.out or System.err by a logger.(áÂª
+9
+java:S3626Ï"Remove this redundant jump.(ûÁİ…8¿Ëí¢·.
+Y
+java:S1144c"7Remove this unused private "testAddSameObjects" method.(½ı¬ìıÿÿÿÿ8ª£©•Å.
+S
+java:S1144†"0Remove this unused private "testSubList" method.(àÇ¿Òúÿÿÿÿ8”ŸîıË.
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(®ÿ×’üÿÿÿÿ8¤”¸ıÌ.
 ]
 java:S1144{"@Remove this unused private "testStringBuilderAppendNull" method.(—òÍœ8ÅæçÄ.
+]
+java:S1144‘":Remove this unused private "testStreamForeachList" method.(‰êı¯ıÿÿÿÿ8±³Õ¡Ã.
+W
+java:S1144Z"5Remove this unused private "testContainsNull" method.(şı·øıÿÿÿÿ8Û²íıË.
+9
+java:S3626Ê"Remove this redundant jump.(ûÁİ…8§ÛŞ¢·.
+I
+java:S1602q",Remove useless curly braces around statement(¼†ÔÓ8ÿÖëçÄ.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(¬«í8ÇÜèŒÇ.
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(éçÄèşÿÿÿÿ8İ®¹.
+V
+java:S1144N"4Remove this unused private "testSubListUtil" method.(ÆÜ£¦ÿÿÿÿÿ8÷œ”ÊÌ.
+T	java:S106­"9Replace this use of System.out or System.err by a logger.(âí±¿şÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ü˜Óˆ8óá¡Ã.
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(µäÃ²8¾££‹Ñ.
+R
+java:S1444"5Make this "public static NOT_SEND_STATUS" field final(Óá’í8æøˆäÇ.
+x
+java:S1104"[Make NOT_SEND_STATUS a static final constant or non-public and provide accessors if needed.(Óá’í8æøˆäÇ.
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(—Ë†Ûûÿÿÿÿ8Ò¥•Å.
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(Ş§ş®8…¥ÒôÌ.
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(œØîÛúÿÿÿÿ8àÚìçÄ.
+:
+java:S2386"Make this member "protected".(Óá’í8æøˆäÇ.
+d
+java:S1226F"BIntroduce a new variable instead of reusing the parameter "strs2".(˜“µúÿÿÿÿ8ûßÏÌ.
+G
+java:S2114G"%Remove or correct this "addAll" call.(‡ùÚœøÿÿÿÿ8İĞÏÌ.
+Y
+java:S1144<"=Remove this unused private "testSetListValueInMethod" method.(–à³>8‰«ÚôÌ.
+L
+java:S3740P"/Provide the parametrized type for this generic.(¦ÔÇ8ÊŞ“ÿË.
+R
+java:S1144o"0Remove this unused private "testForeach" method.(á°Çœøÿÿÿÿ8•Û¤•Å.

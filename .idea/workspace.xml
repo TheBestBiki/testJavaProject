@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/date/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/date/DateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/list/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/TestList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -81,13 +81,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.ThreadTest">
-    <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BigDecimal.BigDecimalTest" />
+  <component name="RunManager" selected="Application.TestList">
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Thread.MyThread" />
       <module name="testP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.BigDecimal.*" />
+          <option name="PATTERN" value="com.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Object.ObjectTest" />
+    <configuration name="RecursiveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.RecursiveTest" />
       <module name="testP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Object.*" />
+          <option name="PATTERN" value="com.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stream.StreamTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.elseTest.Test" />
       <module name="testP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stream.*" />
+          <option name="PATTERN" value="com.elseTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.TestList" />
-        <item itemvalue="Application.ObjectTest" />
-        <item itemvalue="Application.StreamTest" />
-        <item itemvalue="Application.BigDecimalTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.RecursiveTest" />
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.ThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,8 @@
       <workItem from="1602322424112" duration="1797000" />
       <workItem from="1602656688833" duration="5263000" />
       <workItem from="1603075261269" duration="597000" />
-      <workItem from="1603187259179" duration="8102000" />
+      <workItem from="1603187259179" duration="14605000" />
+      <workItem from="1603683738148" duration="6671000" />
     </task>
     <servers />
   </component>
@@ -270,7 +271,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1600938768766" />
-    <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1594803761801" />
     <state x="811" y="285" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1600767745268">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -279,55 +279,50 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="638" height="466" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1601104815749" />
-    <state width="424" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1594803682450" />
     <state x="826" y="161" key="FileChooserDialogImpl" timestamp="1600944384707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="826" y="161" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1600944384707" />
-    <state width="1877" height="330" key="GridCell.Tab.0.bottom" timestamp="1603264210417">
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1603941693795">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603264210417" />
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603941693795" />
     <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1597990573726" />
     <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597409323916" />
-    <state width="1877" height="330" key="GridCell.Tab.0.center" timestamp="1603264210416">
+    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1603941693795">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603264210416" />
+    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603941693795" />
     <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1597990573726" />
     <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597409323916" />
-    <state width="1877" height="330" key="GridCell.Tab.0.left" timestamp="1603264210416">
+    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1603941693795">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603264210416" />
+    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603941693795" />
     <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1597990573726" />
     <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597409323915" />
-    <state width="1877" height="330" key="GridCell.Tab.0.right" timestamp="1603264210416">
+    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1603941693795">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603264210416" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603941693795" />
     <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1597990573726" />
     <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597409323916" />
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1601264964093">
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1603679957476">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1601264964093" />
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1594803692408" />
-    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1601264964093">
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603679957476" />
+    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1603679957476">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1601264964093" />
-    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1594803692408" />
-    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1601264964093">
+    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603679957476" />
+    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1603679957468">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1601264964093" />
-    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1594803692408" />
-    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1601264964093">
+    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603679957468" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1603679957476">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1601264964093" />
-    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1594803692408" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603679957476" />
     <state x="669" y="240" key="MultipleFileMergeDialog" timestamp="1598857662587">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -340,10 +335,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="166" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1600944388212" />
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1603253876365">
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1603858967465">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603253876365" />
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603858967465" />
     <state x="636" y="263" width="647" height="524" key="find.popup" timestamp="1596440519906">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

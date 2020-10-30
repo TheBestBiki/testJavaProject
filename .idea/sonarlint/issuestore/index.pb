@@ -70,3 +70,5 @@ N
 src/com/Thread/ThreadTest.java,9\7\97051751ef20a79075e50534eebee419974ad11c
 N
 src/com/Object/ObjectTest.java,e\1\e170e5e5228795e7a7fb6a01319c085661fdeb7d
+L
+src/com/Thread/MyThread.java,5\c\5c9f29f439d63c7cb9d247ecd887a0cd71d1989c
