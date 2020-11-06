@@ -1,6 +1,7 @@
 package com.stream;
 
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @author o-Biki.huang
@@ -82,5 +83,21 @@ public class TestClass {
                 ", pro3='" + pro3 + '\'' +
                 ", strList=" + strList +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof TestClass)) return false;
+        TestClass testClass = (TestClass) o;
+        return Objects.equals(pro1, testClass.pro1) &&
+                Objects.equals(pro2, testClass.pro2) &&
+                Objects.equals(pro3, testClass.pro3) &&
+                Objects.equals(strList, testClass.strList);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(pro1, pro2, pro3, strList);
     }
 }

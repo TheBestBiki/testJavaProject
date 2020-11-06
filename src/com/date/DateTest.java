@@ -34,7 +34,7 @@ public class DateTest {
     }
 
     /**
-     * 获取今天的日期Date, 不包括时间. 如yyyy-MM-dd 00:00:00
+     * 获取昨天此时的日期Date, 不包括时间. 如yyyy-MM-dd 00:00:00
      *
      * @return yyyy-MM-dd 00:00:00
      */
@@ -43,7 +43,7 @@ public class DateTest {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(date);
         calendar.add(Calendar.DAY_OF_MONTH, -1);
-        date = (Date) calendar.getTime();
+        date = calendar.getTime();
         SimpleDateFormat formatter  = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return "{\"updateTime\":\""+formatter.format(date)+"\"}";
         //return "{\"updateTime\":\"2021-12-27 18:27:04\"}";

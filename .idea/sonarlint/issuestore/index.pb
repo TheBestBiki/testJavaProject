@@ -72,3 +72,9 @@ N
 src/com/Object/ObjectTest.java,e\1\e170e5e5228795e7a7fb6a01319c085661fdeb7d
 L
 src/com/Thread/MyThread.java,5\c\5c9f29f439d63c7cb9d247ecd887a0cd71d1989c
+J
+src/com/elseTest/Test.java,d\9\d941deb49ec4588d13f6d251cce5db2f663f1ab2
+U
+%src/com/interfaceTest/Interface1.java,a\1\a1b32326bc9d064f9689213f4409e2293e05acec
+X
+(src/com/interfaceTest/InterFaceTest.java,8\9\8914685692cd563980206a2d829a736e7d549648
