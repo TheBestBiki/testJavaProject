@@ -9,10 +9,20 @@ import java.math.BigDecimal;
  */
 public class BigDecimalTest {
 
+    /**
+     * BigDecimal不管是什么运算，计算后的值都要重新接收
+     * @param args
+     */
+
     public static void main(String[] args) {
         //testPoint();
 
-        testCalculation();
+        //testCalculation();
+
+        BigDecimal z = BigDecimal.ZERO;
+        z = z.add(new BigDecimal(3));
+
+        System.out.println(z);
     }
 
     private static void testCalculation() {

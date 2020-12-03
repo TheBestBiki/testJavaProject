@@ -34,12 +34,24 @@ public class TestString {
         /*Date date = new Date("2016-08-12 00:00:00");
         System.out.println(date);*/
 
-        String ss = "动图大大22";
+        /*String ss = "动图大大22";
         System.out.println(ss.length());
 
         TestClass testClass = new TestClass();
         changeClass(testClass);
-        System.out.println(testClass.toString());
+        System.out.println(testClass.toString());*/
+
+        testIndexOf();
+    }
+
+    /**
+     * 测试截取字符串的indexOf
+     */
+    private static void testIndexOf() {
+        String aa = "ab^c";
+        int a = aa.lastIndexOf("^");
+        System.out.println(aa.lastIndexOf("^"));
+        System.out.println(aa.substring(0,a));
     }
 
     private static void changeClass(TestClass testClass) {

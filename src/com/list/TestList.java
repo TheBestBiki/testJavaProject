@@ -5,6 +5,7 @@ import com.stream.TestClass;
 import org.apache.commons.collections.CollectionUtils;
 
 import java.util.*;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 /**
@@ -22,6 +23,8 @@ public class TestList {
         //main3(); // 测试List，用foreach后还会不会按添加顺序读取展示
         //testStreamForeachList();
 
+        //testForBreak();
+
         //testSubList();
 
         //testSubListUtil();
@@ -38,22 +41,22 @@ public class TestList {
 
         // =============================================================
 
-        /*String ss = "20201010-3";
-        System.out.println(ss.substring(9));
+        //Collections.sort(users, Comparator.comparing(User::getName));  //排序
 
-        List<Integer> ii = new ArrayList<>(Arrays.asList(2,3,5));
-        // System.out.println(ii.stream().sorted((x,y)->(y.compareTo(x))).collect(Collectors.toList()).toString());
-        List<Integer> collect = ii.stream().sorted((x, y) -> (y.compareTo(x))).collect(Collectors.toList());
-        String s = "20200113"+"-"+(collect.get(0)+1);
-        System.out.println(s);*/
+    }
 
-        /*List<String> aa = new ArrayList<>();
-        System.out.println(aa.size());
-        System.out.println(aa.stream().map(a->a+"11").collect(Collectors.toList()));*/
-
-        Long aa = 2L;
-        System.out.println(aa >1L);
-
+    /**
+     * break跳出循环，循环结束
+     * continue跳出本次，循环不结束
+     */
+    private static void testForBreak() {
+        List<Integer> list  = Arrays.asList(1,2,3,4);
+        for(Integer i : list){
+            if(i == 3){
+               continue;
+            }
+            System.out.println(i);
+        }
     }
 
     /**
@@ -81,9 +84,14 @@ public class TestList {
      * 结果：subtract里的第一、二个参数为【集合个数为0但不为null】都不会报错
      */
     private static void testSubListUtil() {
-        List<String> baseList = new ArrayList<>(Arrays.asList("11","22"));
-        List<String> result = (List<String>)CollectionUtils.subtract(baseList,null);
+        List<String> baseList = new ArrayList<>(Arrays.asList("CMB202011302331", "CMB202011254672", "CMB202011307027"));
+        List<String> baseList2 = new ArrayList<>(Arrays.asList("CMB202011302331", "CMB202011254672", "CMB202011307027"));
+
+        List<String> result = (List<String>)CollectionUtils.subtract(baseList,baseList2);
         System.out.println(result.toString());
+        System.out.println(result.isEmpty());
+
+
 
     }
 
@@ -135,6 +143,9 @@ public class TestList {
 
     /**
      * 测试subList
+     * 第一个参数：起始索引
+     * 第二个参数:结束索引
+     * 若剪切subList(0,4),则裁剪的值的索引包括:0,1,2,3，即4（不包括4）之前的
      */
     private static void testSubList() {
         List<Integer> aa = new ArrayList<>(Arrays.asList(0,1,2,3,4));

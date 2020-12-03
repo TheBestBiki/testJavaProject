@@ -17,17 +17,40 @@ public class TestMap {
         int b=10;
         System.out.println(a.equals(b));*/
 
-        Map<String,String> map = new HashMap<>();
+        /*Map<String,String> map = new HashMap<>();
         map.put("1","1");
         map.put("1","2");
         System.out.println(map.get("1"));
 
         String str="11,22,33";
-        str.split(str);
+        str.split(str);*/
 
 
         //testAddListNodeInMap();
 
+        //testMapToNewAddress();
+
+        int i=0;
+        i= 1==0 ? i : ++i;
+        i= 1==0 ? i : ++i;
+        i= 1==0 ? i : ++i;
+        System.out.println(i);
+
+    }
+
+    /**
+     * map跨方法的话，需要用put或者putAll才可以给原始的map赋值
+     */
+    private static void testMapToNewAddress() {
+        Map<String,String> sMap = new HashMap<>();
+        newvalue(sMap);
+        System.out.println(sMap);
+    }
+
+    private static void newvalue(Map<String, String> sMap) {
+        Map<String,String> map = new HashMap<>();
+        map.put("11","11");
+        sMap.putAll(map);
     }
 
     /**
