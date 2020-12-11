@@ -12,10 +12,28 @@ public class ThreadTest {
     public static void main(String[] args) throws InterruptedException {
         //testThreadForParameter();
         //testThreadJoin();
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(1, 2, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>());
+        testExecutorPool();
+    }
+
+    /**
+     * 创建线程池，用这种最基本的构造方法来创建
+     * 不用工具类创建是因为，不够灵活，容易存在浪费的线程池
+     *
+     * 若线程池的核心线程池不为0，则这个程序不会停止，也一直处于启动状态；当核心线程池为0时，程序才会停止
+     * 如下代码，当队列使用的是ArrayBlockingQueue，且容量指定为1时
+     * 当核心线程数都处于执行中，而队列里也满了，这时，还不会创建非核心线程
+     * 当核心线程都忙，且队列也满了。这个时候，如果又来了一个新任务，则会创建一个非核心线程，来处理这个<新任务>，而不是之前队列里排了很久的旧任务。
+     * 若此时新任务执行完了，核心线程的任务还没执行完，则队列里的旧任务，会交由该非核心线程来执行。
+     * 结果：先打印"第三个"，然后"第二个"，最后"第一个"。
+     * 若继续在代码里加第四个任务，则会报错，因为核心线程，非核心线程都在忙，队列又满了，此时新任务进来，就会被拒绝
+     * 解决办法是，将这个被拒的消息，进行持久化储存。等线程池不那么忙时，再解决这些任务
+     * 参考网址：https://blog.csdn.net/fengye454545/article/details/79536986
+     */
+    private static void testExecutorPool() {
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(1, 2, 0L, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<>(1));
         threadPoolExecutor.submit(()->{
             try {
-                Thread.sleep(2000L);
+                Thread.sleep(4000L);
                 System.out.println("第一个");
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -24,6 +42,15 @@ public class ThreadTest {
         threadPoolExecutor.submit(()->{
             System.out.println("第二个");
         });
+        threadPoolExecutor.submit(()->{
+            try {
+                Thread.sleep(2000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("第三个");
+        });
+
     }
 
     // 网址参考：https://blog.csdn.net/wangdong5678999/article/details/81842528
