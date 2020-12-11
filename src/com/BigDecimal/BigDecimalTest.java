@@ -19,10 +19,7 @@ public class BigDecimalTest {
 
         //testCalculation();
 
-        BigDecimal z = BigDecimal.ZERO;
-        z = z.add(new BigDecimal(3));
 
-        System.out.println(z);
     }
 
     private static void testCalculation() {

@@ -1,23 +1,23 @@
 
-T	java:S1065"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
-g
-java:S30274"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(‰ï‚Õ8¤Û’äá.
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
-f
-java:S30275"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
-O	java:S106›"9Replace this use of System.out or System.err by a logger.(²à±¿
-Z	java:S1066"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÙŠ¢
-I
-java:S1144—"2Remove this unused private "checkUserRole" method.(öÙîŠ
-S
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-R
-java:S11449"0Remove this unused private "changeClass" method.(‘ÎŸşÿÿÿÿ8ÂŞ£òß.
 U
 java:S1155œ">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
+g
+java:S30274"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(‰ï‚Õ8¤Û’äá.
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
+I
+java:S1144—"2Remove this unused private "checkUserRole" method.(öÙîŠ
 3
 java:S2386"Make this member "protected".(–ÂÖ§
+f
+java:S30275"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
 @
 java:S1125œ")Remove the literal "false" boolean value.(ÌËÀ
+R
+java:S11449"0Remove this unused private "changeClass" method.(‘ÎŸşÿÿÿÿ8ÂŞ£òß.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÙŠ¢
+T	java:S1065"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(²à±¿

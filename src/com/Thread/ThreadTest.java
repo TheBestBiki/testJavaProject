@@ -1,5 +1,7 @@
 package com.Thread;
 
+import java.util.concurrent.*;
+
 /**
  * @author o-Biki.huang
  * @version 1.0
@@ -9,9 +11,32 @@ public class ThreadTest {
 
     public static void main(String[] args) throws InterruptedException {
         //testThreadForParameter();
-        testThreadJoin();
-
+        //testThreadJoin();
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(1, 2, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>());
+        threadPoolExecutor.submit(()->{
+            try {
+                Thread.sleep(2000L);
+                System.out.println("第一个");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        threadPoolExecutor.submit(()->{
+            System.out.println("第二个");
+        });
     }
+
+    // 网址参考：https://blog.csdn.net/wangdong5678999/article/details/81842528
+    // 创建一个线程池，线程池中线程的数目为100 和商店数目 二者中较小 的一个值
+    private final Executor executor = Executors.newFixedThreadPool(50, new ThreadFactory() {
+        @Override
+        public Thread newThread(Runnable r) {
+            Thread t = new Thread(r);
+            //使用守护线程——这种方式不会阻止程序的关停
+            t.setDaemon(true);
+            return t;
+        }
+    });
 
     /**
      * 测试线程的join方法的执行顺序

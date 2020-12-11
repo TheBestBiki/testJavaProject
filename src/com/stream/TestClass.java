@@ -18,6 +18,8 @@ public class TestClass {
 
     private List<String> strList;
 
+    private List<TestClassSon> sonList;
+
     public TestClass() {
     }
 
@@ -73,6 +75,14 @@ public class TestClass {
 
     public void setStrList(List<String> strList) {
         this.strList = strList;
+    }
+
+    public List<TestClassSon> getSonList() {
+        return sonList;
+    }
+
+    public void setSonList(List<TestClassSon> sonList) {
+        this.sonList = sonList;
     }
 
     @Override

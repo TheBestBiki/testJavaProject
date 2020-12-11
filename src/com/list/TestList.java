@@ -2,6 +2,7 @@ package com.list;
 
 import com.String.StringA;
 import com.stream.TestClass;
+import com.stream.TestClassSon;
 import org.apache.commons.collections.CollectionUtils;
 
 import java.util.*;
@@ -39,10 +40,51 @@ public class TestList {
 
         //testSetListValueInMethod();
 
+        //testClassList();
+
+        testSwitch();
+
         // =============================================================
 
         //Collections.sort(users, Comparator.comparing(User::getName));  //排序
+    }
 
+    /**
+     * 这里，a等于2或3或4都会打印234这一句  为2时会打印2句
+     */
+    private static void testSwitch() {
+
+        int a=5;
+        switch (a){
+            case 1:
+                System.out.println(1);
+                break;
+            case 2:System.out.println(2);
+            case 3:
+            case 4:
+                System.out.println(234);
+                break;
+        }
+
+    }
+
+    /**
+     * 测试对象里的list
+     * 结果：如下，用一个list来接收对象的list属性时，该值指向的是对象里list属性的同一个指针
+     *       所以在新的接收list里面，对list进行修改，那么改动的，其实也就是对象的list属性里的数据，因为指向的是同个地址
+     *       一个对象，如果不重写tostring方法，那么对象.tostring打印出来的则是这种com.stream.TestClassSon@7ba4f24f  指针型的
+     */
+    private static void testClassList() {
+        TestClass testClass = new TestClass();
+        List<TestClassSon> list = new ArrayList<>();
+        list.add(new TestClassSon("s1","s2"));
+        list.add(new TestClassSon("s11","s22"));
+        testClass.setSonList(list);
+        List<TestClassSon> sonList = testClass.getSonList(); // 新起一个变量来接收，指向的地址是testClass.SonList的地址
+        for (TestClassSon testClassSon : sonList) {
+            testClassSon.setSonPro1("333"); // 这里虽然改的是新变量的值，但是因为指向的地址是同一个，所以testClass.getSonList()也能得到修改后的数据
+        }
+        testClass.getSonList().forEach(e->{System.out.println(e.toString());}); //打印结果是修改后的数据，说明指向的地址是同一个。List里面的每个对象，地址也是一样
     }
 
     /**

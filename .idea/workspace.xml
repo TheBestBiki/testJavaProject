@@ -8,12 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2a9806b884e2771468ab654f500f76d075c7961" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2a9806b884e2771468ab654f500f76d075c7961" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BigDecimal/BigDecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BigDecimal/BigDecimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/String/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/String/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Thread/ThreadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/list/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/map/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stream/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stream/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.BigDecimalTest">
+  <component name="RunManager" selected="Application.ThreadTest">
     <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.BigDecimal.BigDecimalTest" />
       <module name="testP" />
@@ -125,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.map.TestMap" />
-      <module name="testP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.String.TestString" />
       <module name="testP" />
@@ -151,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Thread.ThreadTest" />
+      <module name="testP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BigDecimalTest" />
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.TestList" />
+        <item itemvalue="Application.BigDecimalTest" />
         <item itemvalue="Application.TestString" />
         <item itemvalue="Application.TestJson" />
-        <item itemvalue="Application.TestMap" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +272,9 @@
       <workItem from="1606793361753" duration="4689000" />
       <workItem from="1606959339256" duration="215000" />
       <workItem from="1606959569852" duration="394000" />
-      <workItem from="1606959979702" duration="4147000" />
+      <workItem from="1606959979702" duration="4797000" />
+      <workItem from="1607307678147" duration="13075000" />
+      <workItem from="1607652421915" duration="608000" />
     </task>
     <servers />
   </component>
@@ -281,10 +282,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1606362018264">
+    <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1607393211133">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606362018264" />
+    <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607393211133" />
     <state x="811" y="285" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1600767745268">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -297,38 +298,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606361828758" />
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1606979685477">
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom" timestamp="1607485648812">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606979685477" />
-    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1606979685477">
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485648812" />
+    <state width="1877" height="303" key="GridCell.Tab.0.center" timestamp="1607485648812">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606979685477" />
-    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1606979685477">
+    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485648812" />
+    <state width="1877" height="303" key="GridCell.Tab.0.left" timestamp="1607485648812">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606979685477" />
-    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1606979685477">
+    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485648812" />
+    <state width="1877" height="303" key="GridCell.Tab.0.right" timestamp="1607485648812">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606979685477" />
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1605868029053">
+    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485648812" />
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1607485084895">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605868029053" />
-    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1605868029053">
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
+    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1607485084895">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605868029053" />
-    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1605868029053">
+    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
+    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1607485084895">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605868029053" />
-    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1605868029053">
+    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1607485084895">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605868029053" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
     <state x="669" y="240" key="MultipleFileMergeDialog" timestamp="1598857662587">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -341,10 +342,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="166" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606960073194" />
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1603858967465">
+    <state width="89" height="37" key="documentation.popup.size" timestamp="1607480716310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603858967465" />
+    <state width="89" height="37" key="documentation.popup.size/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607480716310" />
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1607393449416">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607393449416" />
     <state x="729" y="236" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598857627981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
