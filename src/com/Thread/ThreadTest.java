@@ -13,6 +13,28 @@ public class ThreadTest {
         //testThreadForParameter();
         //testThreadJoin();
         testExecutorPool();
+        //testSynBlockingQueue();
+    }
+
+    private static void testSynBlockingQueue() throws InterruptedException {
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(1, 1, 0L, TimeUnit.MILLISECONDS, new SynchronousQueue<>(true));
+        for (int i = 1; i < 5; i++) {
+            final Integer j = i;
+
+            //Thread.sleep(10);
+            System.out.println("第"+i+"个头");
+            threadPoolExecutor.submit(()->{
+               /* try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }*/
+                System.out.println("第"+j+"个内");
+                System.out.println("第"+j+"个尾");
+
+            });
+        }
+
     }
 
     /**
@@ -34,13 +56,13 @@ public class ThreadTest {
         threadPoolExecutor.submit(()->{
             try {
                 Thread.sleep(4000L);
-                System.out.println("第一个");
+                System.out.println(Thread.currentThread().getName()+"第一个");
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         });
         threadPoolExecutor.submit(()->{
-            System.out.println("第二个");
+            System.out.println(Thread.currentThread().getName()+"第二个");
         });
         threadPoolExecutor.submit(()->{
             try {
@@ -48,7 +70,7 @@ public class ThreadTest {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("第三个");
+            System.out.println(Thread.currentThread().getName()+"第三个");
         });
 
     }

@@ -18,7 +18,7 @@ public class StreamTest {
         /*StreamTest streamTest = new StreamTest();
         streamTest.testGroupingBy();*/
 
-        testGroupingBy();
+        //testGroupingBy();
 
         //testFlatMap();
 
@@ -30,9 +30,35 @@ public class StreamTest {
 
         //testDistinctObject();
 
-        Map<String,String> map = new HashMap<>();
-        System.out.println(map.get(null));
+        //testStreamCount();
+        //testReturnForeach();
 
+    }
+
+    /**
+     * 测试在流里面的foreach里用return，能达到普通for循环continue的效果
+     */
+    private static void testReturnForeach() {
+        List<TestClass> list = new ArrayList<>();
+        list.add(new TestClass("11"));
+        list.add(new TestClass("2"));
+        list.add(new TestClass("22"));
+        list.add(new TestClass("2"));
+        list.add(new TestClass("3"));
+        list.stream().forEach(s->{
+            if(s.getPro1().equals("2")){
+                return;
+            }
+            System.out.println(s.getPro1());
+        });
+    }
+
+    private static void testStreamCount() {
+        List<TestClass> list = new ArrayList<>();
+        list.add(new TestClass("11"));
+        list.add(new TestClass("22"));
+        list.add(new TestClass("22"));
+        System.out.println(list.stream().map(TestClass :: getPro1).distinct().count());
     }
 
     /**

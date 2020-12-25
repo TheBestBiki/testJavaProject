@@ -80,3 +80,7 @@ X
 (src/com/interfaceTest/InterFaceTest.java,8\9\8914685692cd563980206a2d829a736e7d549648
 J
 src/com/json/TestJson.java,2\9\2965bb7fb57241623a07b7488444c5a29eae4dee
+P
+ src/com/stream/TestClassSon.java,8\c\8c142537bce2f1c9235a6cd1fa921f1cb52efc6e
+N
+src/com/future/FutureTest.java,7\5\750570be8636f6b81f7fd562a31f17c0a9bceab7

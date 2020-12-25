@@ -42,11 +42,13 @@ public class TestList {
 
         //testClassList();
 
-        testSwitch();
+        //testSwitch();
 
         // =============================================================
 
         //Collections.sort(users, Comparator.comparing(User::getName));  //排序
+        List<Integer> list = new ArrayList<>();
+        System.out.println(list.contains(2));
     }
 
     /**

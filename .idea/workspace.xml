@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a89c823f43d4b8c4a0557b67d1e8d3fe16be6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a89c823f43d4b8c4a0557b67d1e8d3fe16be6c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c287accb305de687ee7a6f8e0f138021103d3312" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c287accb305de687ee7a6f8e0f138021103d3312" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2a9806b884e2771468ab654f500f76d075c7961" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2a9806b884e2771468ab654f500f76d075c7961" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/String/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/String/TestString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Thread/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/list/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stream/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.json.TestJson" />
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.StreamTest" />
       <module name="testP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.json.*" />
+          <option name="PATTERN" value="com.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,10 +154,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.TestString" />
+        <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.TestList" />
         <item itemvalue="Application.BigDecimalTest" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="Application.TestJson" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +275,9 @@
       <workItem from="1606959569852" duration="394000" />
       <workItem from="1606959979702" duration="4797000" />
       <workItem from="1607307678147" duration="13075000" />
-      <workItem from="1607652421915" duration="7461000" />
+      <workItem from="1607652421915" duration="8706000" />
+      <workItem from="1607909191025" duration="13217000" />
+      <workItem from="1608513429217" duration="8003000" />
     </task>
     <servers />
   </component>
@@ -281,6 +293,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="811" y="285" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1600767745268" />
+    <state x="560" y="115" key="CommitChangelistDialog2" timestamp="1607677596580">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="560" y="115" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607677596580" />
     <state width="638" height="466" key="DebuggerActiveHint" timestamp="1605683854053">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -289,38 +305,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606361828758" />
-    <state width="1877" height="303" key="GridCell.Tab.0.bottom" timestamp="1607661235600">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1608892437083">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607661235600" />
-    <state width="1877" height="303" key="GridCell.Tab.0.center" timestamp="1607661235600">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608892437083" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1608892437083">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607661235600" />
-    <state width="1877" height="303" key="GridCell.Tab.0.left" timestamp="1607661235600">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608892437083" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1608892437082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607661235600" />
-    <state width="1877" height="303" key="GridCell.Tab.0.right" timestamp="1607661235600">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608892437082" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1608892437083">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607661235600" />
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1607485084895">
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608892437083" />
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1608545235593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
-    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1607485084895">
+    <state width="1877" height="292" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608545235593" />
+    <state width="1877" height="292" key="GridCell.Tab.1.center" timestamp="1608545235593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
-    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1607485084895">
+    <state width="1877" height="292" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608545235593" />
+    <state width="1877" height="292" key="GridCell.Tab.1.left" timestamp="1608545235593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
-    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1607485084895">
+    <state width="1877" height="292" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608545235593" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right" timestamp="1608545235593">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607485084895" />
+    <state width="1877" height="292" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608545235593" />
     <state x="774" y="458" key="ReplaceDuplicatesPrompt" timestamp="1603253879212">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -333,10 +349,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="89" height="37" key="documentation.popup.size/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607480716310" />
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1607393449416">
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1608620561190">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607393449416" />
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608620561190" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607657849238">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -347,13 +363,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/stream/StreamTest.java</url>
-          <line>45</line>
+          <line>71</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/stream/StreamTest.java</url>
-          <line>139</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/map/TestMap.java</url>

@@ -41,7 +41,19 @@ public class TestString {
         changeClass(testClass);
         System.out.println(testClass.toString());*/
 
-        testIndexOf();
+        //testIndexOf();
+
+        //testStringBuilderInsert();
+
+        Integer aa = null;
+        System.out.println(aa.equals(0));
+    }
+
+    private static void testStringBuilderInsert() {
+        StringBuilder errMsg = new StringBuilder();
+        errMsg.append("0123456");
+        errMsg.insert(0,"qqqq");
+        System.out.println(errMsg.toString());
     }
 
     /**
