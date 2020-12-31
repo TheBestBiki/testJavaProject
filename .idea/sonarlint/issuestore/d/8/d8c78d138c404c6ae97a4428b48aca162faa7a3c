@@ -1,26 +1,31 @@
 
-O	java:S106¤"9Replace this use of System.out or System.err by a logger.(²à±¿
-R
-java:S1144B"0Remove this unused private "changeClass" method.(‘ÎŸşÿÿÿÿ8ÂŞ£òß.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÙŠ¢
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(ÄÇ¿İúÿÿÿÿ8Æ¥†¯æ.
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
-U
-java:S1155¥">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
-f
-java:S3027>"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
-Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
-S
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-g
-java:S3027="JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(‰ï‚Õ8¤Û’äá.
 3
 java:S2386"Make this member "protected".(–ÂÖ§
-T	java:S106>"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
-R
-java:S1144;"0Remove this unused private "testIndexOf" method.(ò°ªèÿÿÿÿÿ8õõ®æ.
-@
-java:S1125¥")Remove the literal "false" boolean value.(ÌËÀ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
+g
+java:S3027@"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(‰ï‚Õ8¤Û’äá.
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
 I
-java:S1144 "2Remove this unused private "checkUserRole" method.(öÙîŠ
+java:S1144£"2Remove this unused private "checkUserRole" method.(öÙîŠ
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(ÄÇ¿İúÿÿÿÿ8Æ¥†¯æ.
+R
+java:S1144E"0Remove this unused private "changeClass" method.(‘ÎŸşÿÿÿÿ8ÂŞ£òß.
+T	java:S106A"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
+R
+java:S1144>"0Remove this unused private "testIndexOf" method.(ò°ªèÿÿÿÿÿ8õõ®æ.
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(ï…Ñà8»Ò´œé.
+O	java:S106§"9Replace this use of System.out or System.err by a logger.(²à±¿
+@
+java:S1125¨")Remove the literal "false" boolean value.(ÌËÀ
+f
+java:S3027A"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
+^
+java:S11444"<Remove this unused private "testStringBuilderInsert" method.(’ø´„ıÿÿÿÿ8Òè³œé.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÙŠ¢
+U
+java:S1155¨">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
+]
+java:S22591"@A "NullPointerException" could be thrown; "aa" is nullable here.(ï…Ñà8Îı¶œé.

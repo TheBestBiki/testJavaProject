@@ -33,6 +33,50 @@ public class StreamTest {
         //testStreamCount();
         //testReturnForeach();
 
+        //testDistinctManySameProperty();
+
+        testSetSoet();
+    }
+
+    /**
+     * 排序 默认是a-b升序， b-a则是降序
+     */
+    private static void testSetSoet() {
+        Set<Integer> orderProIdSet = new TreeSet<>((a, b) -> b - a);
+        orderProIdSet.add(4);
+        orderProIdSet.add(3);
+        orderProIdSet.add(1);
+        orderProIdSet.add(2);
+        orderProIdSet.stream().forEach(System.out::println);
+    }
+
+    /**
+     * set注意的点：
+     * TreeSet<User> treeSet = new TreeSet<>(Comparator.comparing(User::getName)); //根据条件去重
+     * Set<Integer> orderProIdSet = new TreeSet<>((a, b) -> b - a); // 排序 默认是a-b升序， b-a则是降序
+     *
+     * 根据对象的单个或者多个属性进行去重
+     * Collectors.collectingAndThen 也不会改变原集合的所有值
+     * Stream不会改变源对象。相反，它们会返回一个持有结果的新Stream
+     *
+     * https://blog.csdn.net/qq_35634181/article/details/108867857
+     */
+    private static void testDistinctManySameProperty() {
+        List<TestClass> list = new ArrayList<>();
+        list.add(new TestClass("11","22"));
+        list.add(new TestClass("11","22"));
+        list.add(new TestClass("11","33"));
+        // 单个  根据pro1属性进行去重
+        ArrayList<TestClass> distinctList1 = list.stream().collect(Collectors.collectingAndThen(
+                Collectors.toCollection(() -> new TreeSet<>(
+                        Comparator.comparing(
+                                TestClass::getPro1))), ArrayList::new));
+        // 多个  根据pro1,pro2属性进行去重
+        ArrayList<TestClass> distinctList2 = list.stream().collect(Collectors.collectingAndThen(
+                Collectors.toCollection(() -> new TreeSet<>(
+                        Comparator.comparing(p->p.getPro1() + ";" + p.getPro2()))), ArrayList::new));
+        System.out.println(distinctList1);
+        System.out.println(distinctList2);
     }
 
     /**

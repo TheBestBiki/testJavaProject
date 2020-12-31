@@ -41,6 +41,9 @@ public class ThreadTest {
      * 创建线程池，用这种最基本的构造方法来创建
      * 不用工具类创建是因为，不够灵活，容易存在浪费的线程池
      *
+     * 若要实现线程池里的任务先进先出，如果用的队列是ArrayBlockingQueue或者LinkedBlockingDeque的话，则corePoolSize要足够大，至少要满足当前系统的最大任务数
+     * 若用的是SynchronousQueue,则maximumPoolSize要足够大，至少要满足当前系统的最大任务数
+     *
      * 若线程池的核心线程池不为0，则这个程序不会停止，也一直处于启动状态；当核心线程池为0时，程序才会停止
      * 如下代码，当队列使用的是ArrayBlockingQueue，且容量指定为1时
      * 当核心线程数都处于执行中，而队列里也满了，这时，还不会创建非核心线程
