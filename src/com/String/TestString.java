@@ -2,6 +2,7 @@ package com.String;
 
 import com.stream.TestClass;
 
+import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -45,8 +46,21 @@ public class TestString {
 
         //testStringBuilderInsert();
 
-        Integer aa = null;
-        System.out.println(aa.equals(0));
+        //test3Point("11","22");
+    }
+
+    /**
+     * 可变长参数，就是这个位置可以传入任意个该类型参数
+     * 简单来说就是个数组  像数组那样来使用就好了
+     * @param args
+     */
+    private static void test3Point(String... args) {
+        for(int i=0;i<args.length;i++){
+            System.out.println(args[i]);
+        }
+        List<String> test = Arrays.asList(args);
+        System.out.println(test.toString());
+        System.out.println(args.getClass());
     }
 
     private static void testStringBuilderInsert() {

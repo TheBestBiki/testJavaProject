@@ -6,9 +6,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Thread/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/list/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stream/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Object/ObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Object/ObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/String/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/String/TestString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +79,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.StreamTest">
-    <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BigDecimal.BigDecimalTest" />
+  <component name="RunManager" selected="Application.ObjectTest">
+    <configuration name="ObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Object.ObjectTest" />
       <module name="testP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.BigDecimal.*" />
+          <option name="PATTERN" value="com.Object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectTest" />
+        <item itemvalue="Application.TestString" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.TestList" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="Application.BigDecimalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +272,8 @@
       <workItem from="1607652421915" duration="8706000" />
       <workItem from="1607909191025" duration="13217000" />
       <workItem from="1608513429217" duration="9172000" />
-      <workItem from="1609384365849" duration="6039000" />
+      <workItem from="1609384365849" duration="6693000" />
+      <workItem from="1609727112549" duration="10283000" />
     </task>
     <servers />
   </component>
@@ -285,10 +285,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607393211133" />
-    <state x="811" y="285" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1600767745268">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="811" y="285" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1600767745268" />
     <state x="560" y="115" key="CommitChangelistDialog2" timestamp="1607677596580">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -301,22 +297,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606361828758" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1609388595603">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1609748158838">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609388595603" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1609388595603">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609748158838" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1609748158838">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609388595603" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1609388595603">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609748158838" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1609748158838">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609388595603" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1609388595603">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609748158838" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1609748158838">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609388595603" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609748158838" />
     <state width="1877" height="292" key="GridCell.Tab.1.bottom" timestamp="1609205098690">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -345,10 +341,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="89" height="37" key="documentation.popup.size/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607480716310" />
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1609385176338">
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog" timestamp="1609747032204">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609385176338" />
+    <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609747032204" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607657849238">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -357,11 +353,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/stream/StreamTest.java</url>
-          <line>115</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/map/TestMap.java</url>
           <line>52</line>
