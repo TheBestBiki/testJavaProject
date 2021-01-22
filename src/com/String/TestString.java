@@ -1,6 +1,7 @@
 package com.String;
 
 import com.stream.TestClass;
+import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.Array;
 import java.math.BigDecimal;
@@ -47,6 +48,18 @@ public class TestString {
         //testStringBuilderInsert();
 
         //test3Point("11","22");
+
+        //testFormat();
+    }
+
+    /**
+     * https://blog.csdn.net/wejfoasdbsdg/article/details/78124428
+     */
+    private static void testFormat() {
+        String newEquipmentNo = "3000001";
+        int newEquipment = Integer.parseInt(newEquipmentNo) + 1;
+        newEquipmentNo = String.format("%05d", newEquipment);
+        System.out.println(newEquipmentNo);
     }
 
     /**

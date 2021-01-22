@@ -1,9 +1,12 @@
 package com.map;
 
+import com.stream.TestClass;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @author o-Biki.huang
@@ -30,11 +33,17 @@ public class TestMap {
 
         //testMapToNewAddress();
 
-        int i=0;
+        /*int i=0;
         i= 1==0 ? i : ++i;
         i= 1==0 ? i : ++i;
         i= 1==0 ? i : ++i;
-        System.out.println(i);
+        System.out.println(i);*/
+
+        List<TestClass> list = new ArrayList<>();
+        list.add(new TestClass("11"));
+        Map<String, String> collect = list.stream().collect(Collectors.toMap(TestClass::getPro1, t->t.getPro2()));
+        Map<String,String> map= new HashMap<>();
+        map.put("11",null);
 
     }
 

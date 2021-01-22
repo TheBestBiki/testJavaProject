@@ -1,15 +1,12 @@
 
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8²ø¿ôİ.
-f
-java:S2583""DChange this condition so that it does not always evaluate to "false"(ã÷Å‰ûÿÿÿÿ8¿ôİ.
-f
-java:S2583#"DChange this condition so that it does not always evaluate to "false"(ã÷Å‰ûÿÿÿÿ8¼¨Èôİ.
-U	java:S106/"9Replace this use of System.out or System.err by a logger.(Ëô™É8¿§ÚÑİ.
-V
-java:S1144;"9Remove this unused private "testAddListNodeInMap" method.(½©÷à8Öğã».
-f
-java:S2583$"DChange this condition so that it does not always evaluate to "false"(ã÷Å‰ûÿÿÿÿ8˜š¿ôİ.
-Z	java:S106B"9Replace this use of System.out or System.err by a logger.(•õ‡õúÿÿÿÿ8„ëÒ˜».
-Z	java:S106T"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8„ëÒ˜».
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(•õ‡õúÿÿÿÿ8„ëÒ˜».
+N
+java:S1481,",Remove this unused "collect" local variable.(†õôùÿÿÿÿ8í¥ºÃñ.
 U
-java:S1144,"8Remove this unused private "testMapToNewAddress" method.(è¸ù8²­´ôİ.
+java:S11445"8Remove this unused private "testMapToNewAddress" method.(è¸ù8²­´ôİ.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8„ëÒ˜».
+V
+java:S1144D"9Remove this unused private "testAddListNodeInMap" method.(½©÷à8Öğã».
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(Ëô™É8¿§ÚÑİ.
+N
+java:S1612,",Replace this lambda with a method reference.(†õôùÿÿÿÿ8Êí½Ãñ.
