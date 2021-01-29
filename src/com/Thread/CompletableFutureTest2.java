@@ -11,7 +11,7 @@ public class CompletableFutureTest2 {
 
     private static ExecutorService executorService = Executors.newFixedThreadPool(2);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         testAsync();
     }
 
@@ -27,14 +27,15 @@ public class CompletableFutureTest2 {
      * ()->1 ,其实就是函数式接口 Supplier<U> supplier 的简写
      * 所以其实可以看成是传入了2个参数，CompletableFuture.supplyAsync( (() -> 1) , executorService)
      */
-    private static void testAsync() {
-        CompletableFuture<Integer> stringCompletableFuture = CompletableFuture.supplyAsync(() -> 1 ).thenApply(i -> i + 1);
-        CompletableFuture<Integer> stringCompletableFuture2 = CompletableFuture.supplyAsync(() -> 1 , executorService).thenApply(i -> i + 2);
-        //Integer join = stringCompletableFuture.join();
-        //Integer join2 = stringCompletableFuture2.join();
+    private static void testAsync() throws ExecutionException, InterruptedException {
+        CompletableFuture<Integer> future1 = CompletableFuture.supplyAsync(() -> 1 ).thenApply(i -> i + 1);
+        CompletableFuture<Integer> future2 = CompletableFuture.supplyAsync(() -> 1 , executorService).thenApply(i -> i + 2);
+        Integer join = future1.join(); // 获取future1执行完后的返回值
+        Integer join2 = future2.get();
+
         //System.out.println(join);
 
-        CompletableFuture<Void> voidCompletableFuture = CompletableFuture.allOf(stringCompletableFuture, stringCompletableFuture2);
+        CompletableFuture<Void> voidCompletableFuture = CompletableFuture.allOf(future1, future2);
         voidCompletableFuture.join();
         //voidCompletableFuture.thenApply(() -> "1");
     }

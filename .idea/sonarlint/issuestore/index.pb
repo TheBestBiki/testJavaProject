@@ -96,3 +96,5 @@ X
 (src/com/interfaceTest/FunsInterface.java,3\f\3f5a4520849946395150cc93d537593b170b1eda
 Y
 )src/com/Thread/CompletableFutureTest.java,b\3\b3a3b239d1bda4b9f99dd64b9802ace68987a9c1
+Z
+*src/com/Thread/CompletableFutureTest2.java,a\c\ac067d9eb4573d9a567d2a253655a485e4ca8102

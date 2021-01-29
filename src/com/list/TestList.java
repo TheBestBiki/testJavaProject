@@ -44,11 +44,19 @@ public class TestList {
 
         //testSwitch();
 
+        //testContains();
+
         // =============================================================
 
         //Collections.sort(users, Comparator.comparing(User::getName));  //排序
         //List<Integer> list = new ArrayList<>();
         //System.out.println(list.contains(2)); // 结果false
+    }
+
+    private static void testContains() {
+        List<TestClass> list= new ArrayList<>();
+        list.add(new TestClass("11","22"));
+        System.out.println(list.contains("11"));
     }
 
     /**
