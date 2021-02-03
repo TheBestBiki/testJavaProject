@@ -39,11 +39,16 @@ public class TestMap {
         i= 1==0 ? i : ++i;
         System.out.println(i);*/
 
-        List<TestClass> list = new ArrayList<>();
+        /*List<TestClass> list = new ArrayList<>();
         list.add(new TestClass("11"));
         Map<String, String> collect = list.stream().collect(Collectors.toMap(TestClass::getPro1, t->t.getPro2()));
         Map<String,String> map= new HashMap<>();
-        map.put("11",null);
+        map.put("11",null);*/
+
+        /*// get的key也区分大小写
+        Map<String,String> map = new HashMap<>();
+        map.put("dji-cloudbus-prm-authorization","1111");
+        System.out.println(map.get("Dji-Cloudbus-Prm-Authorization"));*/
 
     }
 

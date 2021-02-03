@@ -1,40 +1,40 @@
 
-V
-java:S1144d"4Remove this unused private "testStreamCount" method.(ÉüªÌûÿÿÿÿ8‰Â•Óæ.
-N
-java:S1144Û"+Remove this unused private "genKey" method.(´òş·øÿÿÿÿ8Ë˜ÊÌ.
-[	java:S106½"9Replace this use of System.out or System.err by a logger.(‘ÊÀ§øÿÿÿÿ8ÜÉ£Á.
-U	java:S106i"9Replace this use of System.out or System.err by a logger.(íïó8…ÄèËæ.
-U	java:S106u"9Replace this use of System.out or System.err by a logger.(–³ş8ùøõ•Å.
-U	java:S106O"9Replace this use of System.out or System.err by a logger.(¢Êú8Óëè¶ë.
-Y
-java:S1144o"7Remove this unused private "testDistinctObject" method.(üşªÈüÿÿÿÿ8¿”®˜Å.
-Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ñŠõıÿÿÿÿ8µìÓ¶ë.
 [	java:S106‰"9Replace this use of System.out or System.err by a logger.(‡Œğìùÿÿÿÿ8ıÁ¸™Ä.
-Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ËãÌÿÿÿÿÿ8Õı‡Êè.
-U
-java:S3958–"2Refactor the code so this stream pipeline is used.(İÑüÿÿÿÿ8ëˆæ•Ä.
-Q
-java:S1144Å"3Remove this unused private "testGroupingBy" method.(©©Ëı8¼ÌáËæ.
-N
-java:S1602t",Remove useless curly braces around statement(âÑşùÿÿÿÿ8Ô¸õ•Å.
-M
-java:S1144†"/Remove this unused private "testSorted" method.(ŸğÏ‚8íà«Ä.
-G
-java:S1481 ")Remove this unused "test" local variable.(¬§•«8çß¨¤Á.
 P
 java:S1144”"-Remove this unused private "testHeap" method.(…—ÀÍøÿÿÿÿ8Ÿé•Ä.
 ^
 java:S1144@"ARemove this unused private "testDistinctManySameProperty" method.(‘ÙšŞ8Ê–ƒ¸ë.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¶Ëâåÿÿÿÿÿ8­²¯™Ä.
+[	java:S106½"9Replace this use of System.out or System.err by a logger.(‘ÊÀ§øÿÿÿÿ8ÜÉ£Á.
 T	java:S1062"9Replace this use of System.out or System.err by a logger.(™¬öA8Ê¿¸ë.
-[	java:S106Š"9Replace this use of System.out or System.err by a logger.(»®ùıÿÿÿÿÿ8ıÁ¸™Ä.
-Z	java:S106{"9Replace this use of System.out or System.err by a logger.(ÆÄ¥¸şÿÿÿÿ8«ö¼•Å.
-[	java:S106Ò"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8¢ÏàËæ.
+Q
+java:S1144Å"3Remove this unused private "testGroupingBy" method.(©©Ëı8¼ÌáËæ.
 I
 java:S1144Ÿ"+Remove this unused private "testOf" method.(üº±Ñ8¦´ø¢Â.
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ËãÌÿÿÿÿÿ8Õı‡Êè.
+V
+java:S1144d"4Remove this unused private "testStreamCount" method.(ÉüªÌûÿÿÿÿ8‰Â•Óæ.
+M
+java:S1144†"/Remove this unused private "testSorted" method.(ŸğÏ‚8íà«Ä.
+V	java:S106˜"9Replace this use of System.out or System.err by a logger.(Ñ®§Ê8ˆø¢Â.
+U	java:S106i"9Replace this use of System.out or System.err by a logger.(íïó8…ÄèËæ.
+G
+java:S1481 ")Remove this unused "test" local variable.(¬§•«8çß¨¤Á.
+Y
+java:S1144o"7Remove this unused private "testDistinctObject" method.(üşªÈüÿÿÿÿ8¿”®˜Å.
+[	java:S106Ò"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8¢ÏàËæ.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ñŠõıÿÿÿÿ8µìÓ¶ë.
 N
 java:S1144°"0Remove this unused private "testFlatMap" method.(ìçÏ˜8¦´ø¢Â.
-V	java:S106˜"9Replace this use of System.out or System.err by a logger.(Ñ®§Ê8ˆø¢Â.
+[	java:S106Š"9Replace this use of System.out or System.err by a logger.(»®ùıÿÿÿÿÿ8ıÁ¸™Ä.
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(¢Êú8Óëè¶ë.
 X
 java:S1144U"6Remove this unused private "testReturnForeach" method.( ù‚Öıÿÿÿÿ8Õı‡Êè.
-[	java:S106"9Replace this use of System.out or System.err by a logger.(¶Ëâåÿÿÿÿÿ8­²¯™Ä.
+N
+java:S1144Û"+Remove this unused private "genKey" method.(´òş·øÿÿÿÿ8Ë˜ÊÌ.
+U	java:S106u"9Replace this use of System.out or System.err by a logger.(–³ş8ùøõ•Å.
+Z	java:S106{"9Replace this use of System.out or System.err by a logger.(ÆÄ¥¸şÿÿÿÿ8«ö¼•Å.
+U
+java:S3958–"2Refactor the code so this stream pipeline is used.(İÑüÿÿÿÿ8ëˆæ•Ä.
+N
+java:S1602t",Remove useless curly braces around statement(âÑşùÿÿÿÿ8Ô¸õ•Å.

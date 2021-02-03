@@ -6,10 +6,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Thread/CompletableFutureTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Thread/CompletableFutureTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/list/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/map/TestMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.TestList">
+  <component name="RunManager" selected="Application.TestMap">
     <configuration name="CompletableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Thread.CompletableFutureTest" />
       <module name="testP" />
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestList" />
+        <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.CompletableFutureTest2" />
+        <item itemvalue="Application.TestList" />
         <item itemvalue="Application.CompletableFutureTest" />
         <item itemvalue="Application.TestString" />
-        <item itemvalue="Application.TestMap" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +282,8 @@
       <workItem from="1611298290479" duration="9809000" />
       <workItem from="1611384097474" duration="201000" />
       <workItem from="1611384318500" duration="1544000" />
-      <workItem from="1611542336247" duration="2817000" />
+      <workItem from="1611542336247" duration="13675000" />
+      <workItem from="1612147505543" duration="5126000" />
     </task>
     <servers />
   </component>
@@ -307,22 +307,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606361828758" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1611540916117">
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1612275199361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611540916117" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1611540916117">
+    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
+    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1612275199361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611540916117" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1611540916117">
+    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
+    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1612275199361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611540916117" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1611540916117">
+    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
+    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1612275199361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611540916117" />
+    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
     <state width="1877" height="332" key="GridCell.Tab.1.bottom" timestamp="1611384053983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -339,10 +339,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="332" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611384053983" />
-    <state x="774" y="458" key="ReplaceDuplicatesPrompt" timestamp="1603253879212">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="774" y="458" key="ReplaceDuplicatesPrompt/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603253879212" />
     <state x="461" y="166" key="SettingsEditor" timestamp="1606960073194">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -365,7 +361,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/map/TestMap.java</url>
-          <line>61</line>
+          <line>66</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

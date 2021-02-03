@@ -1,38 +1,38 @@
 
-Q
-java:S1144F"/Remove this unused private "test3Point" method.(â“íÁøÿÿÿÿ8éµâì.
+c
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8ÉœùÆò.
 Z	java:S106K"9Replace this use of System.out or System.err by a logger.(¤Ú¶ûÿÿÿÿ8Š³âì.
+f
+java:S3027\"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
+R
+java:S1144Y"0Remove this unused private "testIndexOf" method.(ò°ªèÿÿÿÿÿ8õõ®æ.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÙŠ¢
-U	java:S106L"9Replace this use of System.out or System.err by a logger.(ÎƒøÌ8Úá‡âì.
-U	java:S106H"9Replace this use of System.out or System.err by a logger.(­Ø½Ç8±Ù®âì.
-T	java:S106\"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
+g
+java:S3027["JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(‰ï‚Õ8¤Û’äá.
+3
+java:S2386"Make this member "protected".(–ÂÖ§
 @
 java:S1125Ã")Remove the literal "false" boolean value.(ÌËÀ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(­Ø½Ç8±Ù®âì.
+T	java:S106\"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(ÎƒøÌ8Úá‡âì.
+Q
+java:S1144F"/Remove this unused private "test3Point" method.(â“íÁøÿÿÿÿ8éµâì.
 R
 java:S1144`"0Remove this unused private "changeClass" method.(‘ÎŸşÿÿÿÿ8ÂŞ£òß.
 S
 java:S1128	"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-c
-java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8ÉœùÆò.
-g
-java:S3027["JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(‰ï‚Õ8¤Û’äá.
-Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
-O	java:S106Â"9Replace this use of System.out or System.err by a logger.(²à±¿
-U
-java:S1155Ã">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
-3
-java:S2386"Make this member "protected".(–ÂÖ§
-f
-java:S3027\"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
-^
-java:S1144O"<Remove this unused private "testStringBuilderInsert" method.(’ø´„ıÿÿÿÿ8Òè³œé.
-U	java:S106>"9Replace this use of System.out or System.err by a logger.(ö¿¼Ê8æ¥üÆò.
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
-L
-java:S1144:"/Remove this unused private "testFormat" method.(ª¥–Ÿ8“Î•Çò.
-Z	java:S106S"9Replace this use of System.out or System.err by a logger.(ÄÇ¿İúÿÿÿÿ8Æ¥†¯æ.
-R
-java:S1144Y"0Remove this unused private "testIndexOf" method.(ò°ªèÿÿÿÿÿ8õõ®æ.
 I
 java:S1144¾"2Remove this unused private "checkUserRole" method.(öÙîŠ
+U
+java:S1155Ã">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(ÄÇ¿İúÿÿÿÿ8Æ¥†¯æ.
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ö¿¼Ê8æ¥üÆò.
+L
+java:S1144:"/Remove this unused private "testFormat" method.(ª¥–Ÿ8“Î•Çò.
+^
+java:S1144O"<Remove this unused private "testStringBuilderInsert" method.(’ø´„ıÿÿÿÿ8Òè³œé.
+O	java:S106Â"9Replace this use of System.out or System.err by a logger.(²à±¿
