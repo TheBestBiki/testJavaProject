@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,20 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.TestMap">
+  <component name="RunManager" selected="Application.BubblingAlgorithmTest">
+    <configuration name="BubblingAlgorithmTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.BubblingAlgorithmTest" />
+      <module name="testJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompletableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Thread.CompletableFutureTest" />
       <module name="testP" />
@@ -129,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.String.TestString" />
-      <module name="testP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubblingAlgorithmTest" />
         <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.CompletableFutureTest2" />
         <item itemvalue="Application.TestList" />
         <item itemvalue="Application.CompletableFutureTest" />
-        <item itemvalue="Application.TestString" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +278,7 @@
       <workItem from="1611384318500" duration="1544000" />
       <workItem from="1611542336247" duration="13675000" />
       <workItem from="1612147505543" duration="5126000" />
-      <workItem from="1614007904259" duration="514000" />
+      <workItem from="1614007904259" duration="1920000" />
     </task>
     <servers />
   </component>
@@ -304,21 +302,25 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606361828758" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1612275199361">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1614009757708">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614009757708" />
     <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1612275199361">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1614009757708">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614009757708" />
     <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1612275199361">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1614009757708">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614009757708" />
     <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1612275199361">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1614009757708">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614009757708" />
     <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
     <state width="1877" height="332" key="GridCell.Tab.1.bottom" timestamp="1611384053983">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -336,6 +338,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="332" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611384053983" />
+    <state x="747" y="230" key="RollbackChangesDialog" timestamp="1614009774162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614009774162" />
     <state x="423" y="189" key="SettingsEditor" timestamp="1614008380253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
