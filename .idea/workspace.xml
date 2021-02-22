@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a89c823f43d4b8c4a0557b67d1e8d3fe16be6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a89c823f43d4b8c4a0557b67d1e8d3fe16be6c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Thread/CompletableFutureTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Thread/CompletableFutureTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/map/TestMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,6 +280,7 @@
       <workItem from="1611384318500" duration="1544000" />
       <workItem from="1611542336247" duration="13675000" />
       <workItem from="1612147505543" duration="5126000" />
+      <workItem from="1614007904259" duration="514000" />
     </task>
     <servers />
   </component>
@@ -339,9 +336,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="332" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611384053983" />
-    <state x="461" y="166" key="SettingsEditor" timestamp="1606960073194">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="423" y="189" key="SettingsEditor" timestamp="1614008380253">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="423" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614008380253" />
     <state x="461" y="166" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606960073194" />
     <state width="89" height="37" key="documentation.popup.size" timestamp="1607480716310">
       <screen x="0" y="0" width="1920" height="1050" />
