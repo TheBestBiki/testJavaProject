@@ -59,7 +59,7 @@ public class BubblingAlgorithmTest {
     public static void bubbleSortOptimization(int[] arr) {
         int temp;
         boolean flag = true; // 表示被排序的表是一个无序的表
-        for (int i = 0; i < arr.length - 1 && flag; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             flag = false; // 排序开始前假设为是有序的表
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j + 1] < arr[j]) {
@@ -69,6 +69,7 @@ public class BubblingAlgorithmTest {
                     flag = true; // 若有交换过位置，则认为该表还有可能是无序的表。若没交换，则flag的值还是为false，即没有交换过位置，是有序的表
                 }
             }
+            if (!flag) break; //没有数据交换，数组已经有序，退出排序
         }
     }
 
@@ -81,7 +82,7 @@ public class BubblingAlgorithmTest {
     public static <T extends Comparable<T>> void bubbleSortObject(T[] arr) {
         T temp;
         boolean flag = true;
-        for (int i = 0; i < arr.length - 1 && flag; i++) {
+        for (int i = 0; i < arr.length - 1 && flag; i++) { // 另外一种写法，免去了break。这里中间部分顺便判断 被排序的表是不是一个无序的表，无序的话则继续
             flag = false;
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j].compareTo(arr[j + 1]) > 0) {
