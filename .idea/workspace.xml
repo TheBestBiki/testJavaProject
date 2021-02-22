@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/BubblingAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/BubblingAlgorithmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1V6Pedh75yjEZbeUilaXq1tleHs" />
   <component name="ProjectLevelVcsManager">
@@ -53,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -61,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -278,26 +282,54 @@
       <workItem from="1611384318500" duration="1544000" />
       <workItem from="1611542336247" duration="13675000" />
       <workItem from="1612147505543" duration="5126000" />
-      <workItem from="1614007904259" duration="1920000" />
+      <workItem from="1614007904259" duration="2228000" />
     </task>
+    <task id="LOCAL-00001" summary="冒泡排序算法">
+      <created>1614009906766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614009906766</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="冒泡排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序算法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1607393211133">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607393211133" />
-    <state x="560" y="115" key="CommitChangelistDialog2" timestamp="1607677596580">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1614009905777">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614009905777" />
     <state x="560" y="115" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607677596580" />
     <state width="638" height="466" key="DebuggerActiveHint" timestamp="1611302957023">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="638" height="466" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611302957023" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1614009980760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614009980760" />
     <state x="437" y="175" key="FileChooserDialogImpl" timestamp="1606361828758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -342,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614009774162" />
-    <state x="423" y="189" key="SettingsEditor" timestamp="1614008380253">
+    <state x="423" y="189" key="SettingsEditor" timestamp="1614010037022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="423" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614008380253" />
+    <state x="423" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614010037022" />
     <state x="461" y="166" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606960073194" />
     <state width="89" height="37" key="documentation.popup.size" timestamp="1607480716310">
       <screen x="0" y="0" width="1920" height="1050" />

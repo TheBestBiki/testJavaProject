@@ -25,6 +25,8 @@ public class BubblingAlgorithmTest {
 
     /**
      * 原始版的冒泡排序算法
+     *
+     * 复杂度为O(n*n)
      * @param arr
      */
     public static void bubbleSort(int[] arr) {
