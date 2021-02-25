@@ -5,7 +5,7 @@ package com.stream;
  * @version 1.0
  * @date 2020/12/8
  */
-public class TestClassSon {
+public class TestClassSon extends TestClass {
 
     private String sonPro1;
     private String sonPro2;

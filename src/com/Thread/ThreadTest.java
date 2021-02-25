@@ -6,6 +6,9 @@ import java.util.concurrent.*;
  * @author o-Biki.huang
  * @version 1.0
  * @date 2020/10/9
+ *
+ * 线程池的队列类型，4种，网址：https://blog.csdn.net/weixin_34033624/article/details/92415825
+ * PriorityBlockingQueue队列：https://blog.csdn.net/u013673252/article/details/84523949 ， https://www.cnblogs.com/yuexiaoyun/p/12203101.html
  */
 public class ThreadTest {
 
