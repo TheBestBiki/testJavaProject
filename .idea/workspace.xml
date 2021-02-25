@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0352f91d6072c28b0b410ee8413a4bb0fc868b4c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0352f91d6072c28b0b410ee8413a4bb0fc868b4c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c78d138c404c6ae97a4428b48aca162faa7a3c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/BubblingAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/BubblingAlgorithmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +286,9 @@
       <workItem from="1611542336247" duration="13675000" />
       <workItem from="1612147505543" duration="5126000" />
       <workItem from="1614007904259" duration="2276000" />
-      <workItem from="1614010328747" duration="216000" />
+      <workItem from="1614010328747" duration="658000" />
+      <workItem from="1614174783207" duration="804000" />
+      <workItem from="1614264683851" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="冒泡排序算法">
       <created>1614009906766</created>
@@ -302,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614010162267</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="冒泡排序算法3">
+      <created>1614010634511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614010634512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,26 +332,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="冒泡排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序算法" />
+    <MESSAGE value="冒泡排序算法3" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序算法3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1607393211133">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="208" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607393211133" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1614010550633">
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1614010633335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614010550633" />
+    <state x="560" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614010633335" />
     <state x="560" y="115" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607677596580" />
     <state width="638" height="466" key="DebuggerActiveHint" timestamp="1611302957023">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="638" height="466" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611302957023" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1614010182669">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1614010688720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614010182669" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614010688720" />
     <state x="437" y="175" key="FileChooserDialogImpl" timestamp="1606361828758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
