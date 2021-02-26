@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +58,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.70/fastjson-1.2.70.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -75,53 +76,24 @@
     </treeState>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.list.TestList" />
       <module name="testJavaProject" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="testJavaProject" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -253,6 +225,7 @@
       <workItem from="1612147505543" duration="5126000" />
       <workItem from="1614007904259" duration="514000" />
       <workItem from="1614244929157" duration="5366000" />
+      <workItem from="1614329686284" duration="2044000" />
     </task>
     <servers />
   </component>
@@ -264,7 +237,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -287,10 +262,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="638" height="466" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611302957023" />
-    <state x="437" y="175" key="FileChooserDialogImpl" timestamp="1606361828758">
+    <state x="437" y="175" key="FileChooserDialogImpl" timestamp="1614330381109">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606361828758" />
+    <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1614330381109" />
     <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1612275199361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -323,11 +298,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="332" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611384053983" />
-    <state x="461" y="166" key="SettingsEditor" timestamp="1614245232273">
+    <state x="461" y="166" key="SettingsEditor" timestamp="1614330383347">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="423" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614008380253" />
-    <state x="461" y="166" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1614245232273" />
+    <state x="461" y="166" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1614330383347" />
     <state width="89" height="37" key="documentation.popup.size" timestamp="1607480716310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -336,6 +311,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="278" width="540" height="503" key="extract.method.dialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1609747032204" />
+    <state x="636" y="263" width="647" height="524" key="find.popup" timestamp="1614329758608">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="263" width="647" height="524" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1614329758608" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1614245613339">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
