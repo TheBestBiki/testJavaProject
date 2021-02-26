@@ -1,38 +1,79 @@
 
-c
-java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8ÉœùÆò.
-Z	java:S106K"9Replace this use of System.out or System.err by a logger.(¤Ú¶ûÿÿÿÿ8Š³âì.
-f
-java:S3027\"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(­Ø½Ç8±Ù®âì.
+^	java:S125œ"<This block of commented-out lines of code should be removed.(„­·íÿÿÿÿÿ8ÛÂÓü.
+X	java:S125n"<This block of commented-out lines of code should be removed.(¥ŒÚÂ8ÛÂÓü.
+Y	java:S125º"<This block of commented-out lines of code should be removed.(¤ûÙ÷8ÛÂÓü.
 R
 java:S1144Y"0Remove this unused private "testIndexOf" method.(ò°ªèÿÿÿÿÿ8õõ®æ.
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(ÎƒøÌ8Úá‡âì.
+c
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8ÈóêÓü.
+]	java:S125e"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8ÛÂÓü.
+Y	java:S125…"<This block of commented-out lines of code should be removed.(§¸Ôû8ÛÂÓü.
+^	java:S125¢"<This block of commented-out lines of code should be removed.( ®ùÿÿÿÿ8ÛÂÓü.
+Y	java:S125²"<This block of commented-out lines of code should be removed.(ñÈ–Á8ÛÂÓü.
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(ö¿¼Ê8æ¥üÆò.
+Y	java:S125Ç"<This block of commented-out lines of code should be removed.(ñ÷‘ô8ÛÂÓü.
+Y	java:S125·"<This block of commented-out lines of code should be removed.(»˜Á¯8ÛÂÓü.
+^	java:S125‘"<This block of commented-out lines of code should be removed.(Ùâáëıÿÿÿÿ8ÛÂÓü.
+@
+java:S1125Ã")Remove the literal "false" boolean value.(ÌËÀ
+X	java:S125±"<This block of commented-out lines of code should be removed.(øü®8ÛÂÓü.
+]	java:S125"<This block of commented-out lines of code should be removed.(ÂÒÙ…şÿÿÿÿ8ÛÂÓü.
+Y	java:S125¤"<This block of commented-out lines of code should be removed.(†âØá8ÛÂÓü.
+Y	java:S125€"<This block of commented-out lines of code should be removed.(ÊûäÍ8ÛÂÓü.
+]	java:S1250"<This block of commented-out lines of code should be removed.(†ĞÙãûÿÿÿÿ8ÛÂÓü.
+]	java:S125$"<This block of commented-out lines of code should be removed.(€Õşÿÿÿÿ8ÛÂÓü.
+Y	java:S125Ñ"<This block of commented-out lines of code should be removed.(ñ÷‘ô8ÛÂÓü.
+^	java:S125ò"<This block of commented-out lines of code should be removed.(ÿÂë†ûÿÿÿÿ8ÛÂÓü.
+Y	java:S125å"<This block of commented-out lines of code should be removed.(à÷Êœ8ÛÂÓü.
+^	java:S125“"<This block of commented-out lines of code should be removed.(”÷Êşÿÿÿÿ8ÛÂÓü.
+^
+java:S1144O"<Remove this unused private "testStringBuilderInsert" method.(’ø´„ıÿÿÿÿ8Òè³œé.
+^	java:S125"<This block of commented-out lines of code should be removed.(„­·íÿÿÿÿÿ8ÛÂÓü.
+]	java:S125g"<This block of commented-out lines of code should be removed.(„âñıÿÿÿÿ8ÛÂÓü.
+U
+java:S1155Ã">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
+X	java:S125"<This block of commented-out lines of code should be removed.(‚êÚ¬8ÛÂÓü.
+X	java:S125{"<This block of commented-out lines of code should be removed.(»Á ¯8ÛÂÓü.
+Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(üôöú8ÛÂÓü.
+T	java:S106\"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
+^	java:S125×"<This block of commented-out lines of code should be removed.(×Ş¿şøÿÿÿÿ8ÛÂÓü.
+R
+java:S1144`"0Remove this unused private "changeClass" method.(‘ÎŸşÿÿÿÿ8ÂŞ£òß.
+W	java:S1254"<This block of commented-out lines of code should be removed.(¯ê˜8ÛÂÓü.
+Y	java:S125”"<This block of commented-out lines of code should be removed.(¯­¶•8ÛÂÓü.
+Y	java:S125§"<This block of commented-out lines of code should be removed.(Ê·˜â8ÛÂÓü.
+Q
+java:S1144F"/Remove this unused private "test3Point" method.(â“íÁøÿÿÿÿ8éµâì.
+^	java:S125à"<This block of commented-out lines of code should be removed.(å¦––ÿÿÿÿÿ8ÛÂÓü.
+]	java:S125."<This block of commented-out lines of code should be removed.(‡‰½•ÿÿÿÿÿ8ÛÂÓü.
+Y	java:S125Ã"<This block of commented-out lines of code should be removed.(®”àÎ8ÛÂÓü.
+f
+java:S3027\"JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(¦Œ78Úıåâá.
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(ÄÇ¿İúÿÿÿÿ8Æ¥†¯æ.
+O	java:S106Â"9Replace this use of System.out or System.err by a logger.(²à±¿
+X	java:S125u"<This block of commented-out lines of code should be removed.(î¢ÆŒ8ÛÂÓü.
+Y	java:S125‰"<This block of commented-out lines of code should be removed.(â»›8ÛÂÓü.
+I
+java:S1144¾"2Remove this unused private "checkUserRole" method.(öÙîŠ
+L
+java:S1144:"/Remove this unused private "testFormat" method.(ª¥–Ÿ8“Î•Çò.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»ÙŠ¢
 g
 java:S3027["JPut single-quotes around '^' to use the faster "lastIndexOf(char)" method.(‰ï‚Õ8¤Û’äá.
-3
-java:S2386"Make this member "protected".(–ÂÖ§
-@
-java:S1125Ã")Remove the literal "false" boolean value.(ÌËÀ
+X	java:S125'"<This block of commented-out lines of code should be removed.(•‘óş8ÛÂÓü.
+Y	java:S125ˆ"<This block of commented-out lines of code should be removed.(à÷Êœ8ÛÂÓü.
+Y	java:S125¬"<This block of commented-out lines of code should be removed.(ñÈ–Á8ÛÂÓü.
+X	java:S1252"<This block of commented-out lines of code should be removed.(ò¬¬8ÛÂÓü.
 [
 java:S1124"EReorder the modifiers to comply with the Java Language Specification.(–ÂÖ§
-U	java:S106H"9Replace this use of System.out or System.err by a logger.(­Ø½Ç8±Ù®âì.
-T	java:S106\"9Replace this use of System.out or System.err by a logger.(¦Œ78ˆÍ¦òß.
-Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
-U	java:S106L"9Replace this use of System.out or System.err by a logger.(ÎƒøÌ8Úá‡âì.
-Q
-java:S1144F"/Remove this unused private "test3Point" method.(â“íÁøÿÿÿÿ8éµâì.
-R
-java:S1144`"0Remove this unused private "changeClass" method.(‘ÎŸşÿÿÿÿ8ÂŞ£òß.
 S
 java:S1128	"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-I
-java:S1144¾"2Remove this unused private "checkUserRole" method.(öÙîŠ
-U
-java:S1155Ã">Use isEmpty() to check whether the collection is empty or not.(ÌËÀ
-Z	java:S106S"9Replace this use of System.out or System.err by a logger.(ÄÇ¿İúÿÿÿÿ8Æ¥†¯æ.
-U	java:S106>"9Replace this use of System.out or System.err by a logger.(ö¿¼Ê8æ¥üÆò.
-L
-java:S1144:"/Remove this unused private "testFormat" method.(ª¥–Ÿ8“Î•Çò.
-^
-java:S1144O"<Remove this unused private "testStringBuilderInsert" method.(’ø´„ıÿÿÿÿ8Òè³œé.
-O	java:S106Â"9Replace this use of System.out or System.err by a logger.(²à±¿
+^	java:S125…"<This block of commented-out lines of code should be removed.(ŒƒÉíüÿÿÿÿ8ÛÂÓü.
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(¤Ú¶ûÿÿÿÿ8Š³âì.
+^	java:S125œ"<This block of commented-out lines of code should be removed.(¨´ÑŠúÿÿÿÿ8ÛÂÓü.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÕÕß«úÿÿÿÿ8¤Û’äá.
+^	java:S125ı"<This block of commented-out lines of code should be removed.(ÍĞ§Şıÿÿÿÿ8ÛÂÓü.
+3
+java:S2386"Make this member "protected".(–ÂÖ§
