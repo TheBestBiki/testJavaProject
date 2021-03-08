@@ -26,7 +26,7 @@ public class StreamTest {
 
         //testHeap();
 
-        //testSorted();
+        testSorted();
 
         //testDistinctObject();
 
@@ -35,7 +35,7 @@ public class StreamTest {
 
         //testDistinctManySameProperty();
 
-        testSetSoet();
+        //testSetSoet();
     }
 
     /**
@@ -128,18 +128,43 @@ public class StreamTest {
      * 前减后， 或者前.compare(后)  表示升序
      * 后减前， 或者后.compare(前)  表示降序
      *
+     * list.stream.sorted(); // 在集合里面调用sorted方法，则集合的泛型List<XXX>中，类XXX必须实现了Comparable接口，并重写compareTo方法；
+     * 否则调用sorted方法失败，因为sort方法最后还是要调用类XXX的compareTo方法来比较2个类的排列顺序
+     * 不实现Comparable接口也可以，用下面这种根据类XXX的某个自动来排序
+     *
      * sorted(Comparator.comparing(User::getAge))  根据age升序
      * sorted(Comparator.comparing(User::getAge).reversed())  根据age降序
+     * 在集合里面，用这种方式调用sorted方法，就不会报错，这种是根据类的某个字段来排序
+     *
+     * Comparator参考网址（写在类外）：https://blog.csdn.net/kuishao1314aa/article/details/100527985
+     * Comparable与Comparator的区别（写在类里）：https://blog.51cto.com/6949410/1869032
+     *
      */
     private static void testSorted() {
         List<Integer> ints = new ArrayList<>(Arrays.asList(1,3,5,4,2));
         //下面2种写法是等效的
-        ints.stream().sorted((e1,e2) -> e2.compareTo(e1)).forEach(System.out :: println);
-        ints.stream().sorted((e1,e2) -> e2 - e1).forEach(System.out :: println);
+        ints.stream().sorted((e1,e2) -> e2.compareTo(e1)).forEach(System.out :: print);
+        System.out.println("");
+        System.out.println("----------");
+        ints.stream().sorted((e1,e2) -> e2 - e1).forEach(System.out :: print);
+
+        System.out.println("");
+        System.out.println("----------");
 
         //当List是Integer类型时的双冒号写法
         ints.stream().sorted(Comparator.comparing(Integer::intValue)).forEach(System.out :: println);
 
+        System.out.println("");
+        System.out.println("----------");
+
+        List<TestClass> lists = new ArrayList<>();
+        lists.add(new TestClass("11"));
+        lists.add(new TestClass("22"));
+        lists.add(new TestClass("12"));
+        // 根据Pro1属性降序，不加reversed就是升序
+        lists.stream().sorted(Comparator.comparing(TestClass::getPro1).reversed()).forEach(System.out :: println);
+        // 这里sorted() 是调用TestClass的compareTo方法来比较集合里前后2个元素的大小的，默认升序
+        lists.stream().sorted().forEach(System.out :: println);
     }
 
     /**

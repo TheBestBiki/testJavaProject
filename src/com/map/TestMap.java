@@ -2,13 +2,13 @@ package com.map;
 
 import com.stream.TestClass;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * Map删除的参考网址：https://blog.csdn.net/harryptter/article/details/77477684
+ * 各种Map的对比的参考网址：https://www.cnblogs.com/coder-lzh/p/10819627.html
+ *
  * @author o-Biki.huang
  * @version 1.0
  * @date 2020/7/14
@@ -16,6 +16,11 @@ import java.util.stream.Collectors;
 public class TestMap {
 
     public static void main(String[] args) {
+
+        testMapRemove();
+
+        // ---------------------------------------------------------
+
         /*Integer a=10;
         int b=10;
         System.out.println(a.equals(b));*/
@@ -50,6 +55,22 @@ public class TestMap {
         map.put("dji-cloudbus-prm-authorization","1111");
         System.out.println(map.get("Dji-Cloudbus-Prm-Authorization"));*/
 
+    }
+
+    /**
+     * 在循环里删除Map的元素的方法
+     * 普通的for循环map，然后调用map.remove()方法，容易引发java.util.ConcurrentModificationException异常
+     * 这是由于我们在遍历HashMap的元素过程中删除了当前所在元素，下一个待访问的元素的指针也由此丢失了
+     *
+     * 用迭代器Iterator 来删除是最保险的
+     */
+    private static void testMapRemove() {
+        Map<String, List<String>> map= new HashMap<>();
+        for(Iterator<Map.Entry<String, List<String>>> it = map.entrySet().iterator(); it.hasNext();){
+            Map.Entry<String, List<String>> item = it.next(); // 获取下一个元素
+            // 逻辑判断
+            it.remove();
+        }
     }
 
     /**
@@ -96,7 +117,10 @@ public class TestMap {
             }
         }
         System.out.println(map.toString());
+
     }
+
+
 
 
 }

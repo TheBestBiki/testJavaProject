@@ -1,12 +1,20 @@
 
+]	java:S125)"<This block of commented-out lines of code should be removed.(Ç¿ğ·ùÿÿÿÿ8ù“ËÃÿ.
+]	java:S125"<This block of commented-out lines of code should be removed.(üĞ­Áşÿÿÿÿ8ù“ËÃÿ.
+]	java:S125/"<This block of commented-out lines of code should be removed.(ıìÏŞúÿÿÿÿ8ù“ËÃÿ.
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(•õ‡õúÿÿÿÿ8„ëÒ˜».
+U	java:S106R"9Replace this use of System.out or System.err by a logger.(Ëô™É8¿§ÚÑİ.
+]	java:S125"<This block of commented-out lines of code should be removed.(„­·íÿÿÿÿÿ8ù“ËÃÿ.
+T
+java:S1854F"8Remove this useless assignment to local variable "item".(¥œ†K8ı‹ÌÄÿ.
+Z	java:S106w"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8„ëÒ˜».
+]	java:S125%"<This block of commented-out lines of code should be removed.(æùïüÿÿÿÿ8ù“ËÃÿ.
+X	java:S125'"<This block of commented-out lines of code should be removed.(ºâõŠ8ù“ËÃÿ.
 U
-java:S11445"8Remove this unused private "testMapToNewAddress" method.(è¸ù8²­´ôİ.
-N
-java:S1612,",Replace this lambda with a method reference.(†õôùÿÿÿÿ8Êí½Ãñ.
-U	java:S1068"9Replace this use of System.out or System.err by a logger.(Ëô™É8¿§ÚÑİ.
+java:S1144O"8Remove this unused private "testMapToNewAddress" method.(è¸ù8²­´ôİ.
+E
+java:S1481F")Remove this unused "item" local variable.(¥œ†K8ı‹ÌÄÿ.
+X	java:S1256"<This block of commented-out lines of code should be removed.(îö8ù“ËÃÿ.
 V
-java:S1144D"9Remove this unused private "testAddListNodeInMap" method.(½©÷à8Öğã».
-Z	java:S106]"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8„ëÒ˜».
-N
-java:S1481,",Remove this unused "collect" local variable.(†õôùÿÿÿÿ8í¥ºÃñ.
-Z	java:S106K"9Replace this use of System.out or System.err by a logger.(•õ‡õúÿÿÿÿ8„ëÒ˜».
+java:S1144^"9Remove this unused private "testAddListNodeInMap" method.(½©÷à8Öğã».
+]	java:S125f"<This block of commented-out lines of code should be removed.(íÒÈ¬üÿÿÿÿ8ù“ËÃÿ.
