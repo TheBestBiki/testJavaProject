@@ -26,7 +26,7 @@ public class StreamTest {
 
         //testHeap();
 
-        //testSorted();
+        testSorted();
 
         //testDistinctObject();
 
@@ -35,7 +35,7 @@ public class StreamTest {
 
         //testDistinctManySameProperty();
 
-        testSetSoet();
+        //testSetSoet();
     }
 
     /**
@@ -125,18 +125,20 @@ public class StreamTest {
 
     /**
      * 测试排序
-     * 前减后， 或者前.compare(后)  表示升序
-     * 后减前， 或者后.compare(前)  表示降序
+     * 前减后， 或者前.compare(后)  表示默认的升序
+     * 后减前， 或者后.compare(前)  表示默认的降序
      *
-     * sorted(Comparator.comparing(User::getAge))  根据age升序
-     * sorted(Comparator.comparing(User::getAge).reversed())  根据age降序
+     * sorted(Comparator.comparing(User::getAge))  根据字段升序，age升序
+     * sorted(Comparator.comparing(User::getAge).reversed())  根据字段降序，age降序
      */
     private static void testSorted() {
         List<Integer> ints = new ArrayList<>(Arrays.asList(1,3,5,4,2));
         //下面2种写法是等效的
-        ints.stream().sorted((e1,e2) -> e2.compareTo(e1)).forEach(System.out :: println);
-        ints.stream().sorted((e1,e2) -> e2 - e1).forEach(System.out :: println);
+        ints.stream().sorted((e1,e2) -> e2.compareTo(e1)).forEach(System.out :: print);
+        System.out.println("---");
+        ints.stream().sorted((e1,e2) -> e2 - e1).forEach(System.out :: print);
 
+        System.out.println("---");
         //当List是Integer类型时的双冒号写法
         ints.stream().sorted(Comparator.comparing(Integer::intValue)).forEach(System.out :: println);
 

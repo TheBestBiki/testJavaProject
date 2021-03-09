@@ -46,11 +46,28 @@ public class TestList {
 
         //testContains();
 
+        testListToArray();
+
         // =============================================================
 
         //Collections.sort(users, Comparator.comparing(User::getName));  //排序
         //List<Integer> list = new ArrayList<>();
         //System.out.println(list.contains(2)); // 结果false
+    }
+
+    /**
+     * 参考网址：https://www.cnblogs.com/dirgo/p/10314330.html
+     */
+    private static void testListToArray() {
+        List<String> testList = new ArrayList<String>(){{add("aa");add("bb");add("cc");}};
+
+        //使用toArray(T[] a)方法
+        String[] array2 = testList.toArray(new String[testList.size()]);
+
+        //打印该数组
+        for(int i = 0; i < array2.length; i++){
+            System.out.println(array2[i]);
+        }
     }
 
     private static void testContains() {

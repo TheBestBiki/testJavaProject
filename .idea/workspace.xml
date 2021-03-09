@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BigDecimal/BigDecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BigDecimal/BigDecimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/list/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stream/StreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,33 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StreamTest">
+    <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BigDecimal.BigDecimalTest" />
+      <module name="testJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BigDecimal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stream.StreamTest" />
+      <module name="testJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.list.TestList" />
       <module name="testJavaProject" />
@@ -89,8 +117,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.String.TestString" />
+      <module name="testJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamTest" />
+        <item itemvalue="Application.BigDecimalTest" />
+        <item itemvalue="Application.TestString" />
         <item itemvalue="Application.TestList" />
       </list>
     </recent_temporary>
@@ -225,7 +269,7 @@
       <workItem from="1612147505543" duration="5126000" />
       <workItem from="1614007904259" duration="514000" />
       <workItem from="1614244929157" duration="5366000" />
-      <workItem from="1614329686284" duration="2044000" />
+      <workItem from="1614329686284" duration="11670000" />
     </task>
     <servers />
   </component>
@@ -266,22 +310,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1614330381109" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1612275199361">
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom" timestamp="1615176195708">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1612275199361">
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
+    <state width="1877" height="133" key="GridCell.Tab.0.center" timestamp="1615176195708">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1612275199361">
+    <state width="1877" height="133" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
+    <state width="1877" height="133" key="GridCell.Tab.0.left" timestamp="1615176195708">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1612275199361">
+    <state width="1877" height="133" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right" timestamp="1615176195708">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
     <state width="1877" height="332" key="GridCell.Tab.1.bottom" timestamp="1611384053983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
