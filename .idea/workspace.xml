@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BigDecimal/BigDecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BigDecimal/BigDecimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/list/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stream/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/json/TestJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/json/TestJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +268,7 @@
       <workItem from="1612147505543" duration="5126000" />
       <workItem from="1614007904259" duration="514000" />
       <workItem from="1614244929157" duration="5366000" />
-      <workItem from="1614329686284" duration="11670000" />
+      <workItem from="1614329686284" duration="16207000" />
     </task>
     <servers />
   </component>
@@ -306,6 +305,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="638" height="466" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1611302957023" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1615276048950">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615276048950" />
     <state x="437" y="175" key="FileChooserDialogImpl" timestamp="1614330381109">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

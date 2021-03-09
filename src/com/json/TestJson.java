@@ -15,9 +15,7 @@ public class TestJson {
     public static void main(String[] args) {
         //testMapAndObjectToJson();
 
-        Map<String,String> map = new HashMap<>();
-        map.put("11","1");
-        System.out.println(JSON.toJSONString(map));
+
     }
 
     /**
