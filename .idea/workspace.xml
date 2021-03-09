@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4e5e1dc-58c1-4404-adfa-a710e9750582" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3992e2d80201c560abaf90fe853db23b60656364" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3992e2d80201c560abaf90fe853db23b60656364" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a89c823f43d4b8c4a0557b67d1e8d3fe16be6c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a89c823f43d4b8c4a0557b67d1e8d3fe16be6c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be36bb702eefc9bceae83e632404b83fbafae0a8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5a3ca79f0738076e514cfe4f9a144f466ab33cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/map/TestMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stream/StreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stream/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stream/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -294,6 +290,9 @@
       <workItem from="1614779890978" duration="7238000" />
       <workItem from="1614818624962" duration="750000" />
       <workItem from="1615211222951" duration="4383000" />
+      <workItem from="1615297781127" duration="987000" />
+      <workItem from="1615298991102" duration="127000" />
+      <workItem from="1615299400048" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="冒泡排序算法">
       <created>1614009906766</created>
@@ -367,25 +366,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="481" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614785498147" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1615216168204">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1615221095510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615216168204" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615221095510" />
     <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1615216168204">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1615221095509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615216168204" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615221095509" />
     <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1615216168204">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1615221095509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615216168204" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615221095509" />
     <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1615216168204">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1615221095510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615216168204" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615221095510" />
     <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1612275199361" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1614274993115">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -411,10 +410,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614009774162" />
-    <state x="373" y="171" key="SettingsEditor" timestamp="1615213360809">
+    <state x="373" y="171" key="SettingsEditor" timestamp="1615299885569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="373" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615213360809" />
+    <state x="373" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615299885569" />
     <state x="461" y="166" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606960073194" />
     <state width="89" height="37" key="documentation.popup.size" timestamp="1607480716310">
       <screen x="0" y="0" width="1920" height="1050" />
