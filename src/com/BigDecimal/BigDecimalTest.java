@@ -15,9 +15,22 @@ public class BigDecimalTest {
      */
 
     public static void main(String[] args) {
+        testDivide(); // 测试除法
+
         //testPoint();
 
         //testCalculation();
+    }
+
+    /**
+     * a 除以 b ，商取2位小数，然后乘以100， 结果还是有2位小数，没有的补2个0，所以要再取整，得到int类型
+     */
+    private static void testDivide() {
+        BigDecimal s = new BigDecimal("25");
+        BigDecimal b = new BigDecimal("100");
+        System.out.println(s.divide(b,2,BigDecimal.ROUND_HALF_UP).multiply(new BigDecimal(100)));  // 25.00
+        System.out.println(s.divide(b,2,BigDecimal.ROUND_HALF_UP).multiply(new BigDecimal(100)).intValue()); // 25
+        System.out.println(s.divide(b,2,BigDecimal.ROUND_HALF_UP).multiply(new BigDecimal(100)).compareTo(new BigDecimal("25"))); // 0 ，即相等
 
 
     }

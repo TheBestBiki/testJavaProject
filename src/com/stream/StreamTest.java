@@ -125,8 +125,8 @@ public class StreamTest {
 
     /**
      * 测试排序
-     * 前减后， 或者前.compare(后)  表示升序
-     * 后减前， 或者后.compare(前)  表示降序
+     * 前减后， 或者前.compare(后)  表示默认的升序
+     * 后减前， 或者后.compare(前)  表示默认的降序
      *
      * list.stream.sorted(); // 在集合里面调用sorted方法，则集合的泛型List<XXX>中，类XXX必须实现了Comparable接口，并重写compareTo方法；
      * 否则调用sorted方法失败，因为sort方法最后还是要调用类XXX的compareTo方法来比较2个类的排列顺序
@@ -151,6 +151,7 @@ public class StreamTest {
         System.out.println("");
         System.out.println("----------");
 
+        System.out.println("---");
         //当List是Integer类型时的双冒号写法
         ints.stream().sorted(Comparator.comparing(Integer::intValue)).forEach(System.out :: println);
 
