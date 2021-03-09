@@ -32,8 +32,8 @@ upload/
 
 
 # intellj file
-.idea/
-.idea/workspace.xml
+*.idea/
+*.xml
 *.iml
 
 # eclipse

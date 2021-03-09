@@ -4,7 +4,7 @@
     <list default="true" id="8b753e4e-133b-4198-897e-d398ee84f8da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/json/TestJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/json/TestJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/String/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/String/TestString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.StreamTest">
+  <component name="RunManager" selected="Application.TestString">
     <configuration name="BigDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.BigDecimal.BigDecimalTest" />
       <module name="testJavaProject" />
@@ -131,9 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestString" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.BigDecimalTest" />
-        <item itemvalue="Application.TestString" />
         <item itemvalue="Application.TestList" />
       </list>
     </recent_temporary>
@@ -313,22 +313,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="437" y="175" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1614330381109" />
-    <state width="1877" height="133" key="GridCell.Tab.0.bottom" timestamp="1615176195708">
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom" timestamp="1615283339322">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
-    <state width="1877" height="133" key="GridCell.Tab.0.center" timestamp="1615176195708">
+    <state width="1877" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615283339322" />
+    <state width="1877" height="133" key="GridCell.Tab.0.center" timestamp="1615283339322">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="133" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
-    <state width="1877" height="133" key="GridCell.Tab.0.left" timestamp="1615176195708">
+    <state width="1877" height="133" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615283339322" />
+    <state width="1877" height="133" key="GridCell.Tab.0.left" timestamp="1615283339322">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="133" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
-    <state width="1877" height="133" key="GridCell.Tab.0.right" timestamp="1615176195708">
+    <state width="1877" height="133" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615283339322" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right" timestamp="1615283339322">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="133" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615176195708" />
+    <state width="1877" height="133" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1615283339322" />
     <state width="1877" height="332" key="GridCell.Tab.1.bottom" timestamp="1611384053983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -3,6 +3,7 @@ package com.String;
 import com.stream.TestClass;
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.util.*;
@@ -17,7 +18,16 @@ public class TestString {
 
     public final static List<String> buyerList =  Arrays.asList("SCBUYER","11");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedEncodingException {
+        //1000 0100   123
+        //1111 1011
+        //1111 1100
+        byte[] a = {(byte) 0x84};
+        System.out.println(a[0]);
+        System.out.println(new String(a,"UTF-8"));
+
+        //==============================================
+
         /*String time = "2020-09-22 12:08:57";
         System.out.println(time.substring(0,19));
 
@@ -53,6 +63,7 @@ public class TestString {
     }
 
     /**
+     * 生成指定长度的字符串
      * https://blog.csdn.net/wejfoasdbsdg/article/details/78124428
      */
     private static void testFormat() {
