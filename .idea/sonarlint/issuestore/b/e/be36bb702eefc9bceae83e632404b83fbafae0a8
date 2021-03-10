@@ -1,70 +1,71 @@
 
-P
-java:S1144­"-Remove this unused private "testHeap" method.(…—ÀÍøÿÿÿÿ8Ÿé•Ä.
-V	java:S106”"9Replace this use of System.out or System.err by a logger.(ã€‡’8’æúÅÿ.
-V
-java:S1854¹"8Remove this useless assignment to local variable "test".(¬§•«8¤ÍâÅÿ.
-V	java:S106§"9Replace this use of System.out or System.err by a logger.(ÏüşÑ8—Ó¯Æÿ.
-Y	java:S125"<This block of commented-out lines of code should be removed.(´×¸å8¤ÍâÅÿ.
-U
-java:S3958¯"2Refactor the code so this stream pipeline is used.(İÑüÿÿÿÿ8ëˆæ•Ä.
-G
-java:S1481¹")Remove this unused "test" local variable.(¬§•«8çß¨¤Á.
-X	java:S125"<This block of commented-out lines of code should be removed.(ê™í8¤ÍâÅÿ.
-U	java:S106u"9Replace this use of System.out or System.err by a logger.(–³ş8ùøõ•Å.
-[	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8ıüÅÿ.
-Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ËãÌÿÿÿÿÿ8Õı‡Êè.
-Y	java:S125–"<This block of commented-out lines of code should be removed.(´×¸å8¤ÍâÅÿ.
-^	java:S125ü"<This block of commented-out lines of code should be removed.(õ–ôÄùÿÿÿÿ8¤ÍâÅÿ.
-[	java:S106ë"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8¢ÏàËæ.
-Y	java:S125ƒ"<This block of commented-out lines of code should be removed.(ß•œˆ8¤ÍâÅÿ.
-W	java:S125"<This block of commented-out lines of code should be removed.(½Ÿç&8¤ÍâÅÿ.
-]	java:S125"<This block of commented-out lines of code should be removed.(èøÉÑûÿÿÿÿ8¤ÍâÅÿ.
-i
-java:S1192”"KDefine a constant instead of duplicating this literal "----------" 3 times.(ã€‡’8ıüÅÿ.
-V	java:S106±"9Replace this use of System.out or System.err by a logger.(Ñ®§Ê8ˆø¢Â.
-^	java:S125·"<This block of commented-out lines of code should be removed.( ´ïÂûÿÿÿÿ8¤ÍâÅÿ.
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(¶Ëâåÿÿÿÿÿ8Æú»/
+^	java:S125á"<This block of commented-out lines of code should be removed.(è„£¬øÿÿÿÿ8¤ÍâÅÿ.
+^	java:S125¸"<This block of commented-out lines of code should be removed.( ´ïÂûÿÿÿÿ8¤ÍâÅÿ.
+U	java:S106u"9Replace this use of System.out or System.err by a logger.(–³ş8Æú»/
 ]	java:S125"<This block of commented-out lines of code should be removed.(ğ‹Ë¶ûÿÿÿÿ8¤ÍâÅÿ.
-N
-java:S1144É"0Remove this unused private "testFlatMap" method.(ìçÏ˜8¦´ø¢Â.
-[	java:S106›"9Replace this use of System.out or System.err by a logger.(¶Ëâåÿÿÿÿÿ8­²¯™Ä.
-V	java:S106•"9Replace this use of System.out or System.err by a logger.(ò•†–8ıÁ¸™Ä.
-]	java:S125&"<This block of commented-out lines of code should be removed.(ñ…—éøÿÿÿÿ8Œ÷Åÿ.
-Y
-java:S1144o"7Remove this unused private "testDistinctObject" method.(üşªÈüÿÿÿÿ8¿”®˜Å.
-N
-java:S1144ô"+Remove this unused private "genKey" method.(´òş·øÿÿÿÿ8Ë˜ÊÌ.
-[	java:S106“"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8’æúÅÿ.
-[	java:S106Ö"9Replace this use of System.out or System.err by a logger.(‘ÊÀ§øÿÿÿÿ8ÜÉ£Á.
-]	java:S125!"<This block of commented-out lines of code should be removed.(®Ëî”ûÿÿÿÿ8¤ÍâÅÿ.
-N
-java:S1602t",Remove useless curly braces around statement(âÑşùÿÿÿÿ8Ô¸õ•Å.
-U	java:S106O"9Replace this use of System.out or System.err by a logger.(¢Êú8Óëè¶ë.
-V
-java:S1144d"4Remove this unused private "testStreamCount" method.(ÉüªÌûÿÿÿÿ8‰Â•Óæ.
-^	java:S125 "<This block of commented-out lines of code should be removed.(¿Õä×üÿÿÿÿ8¤ÍâÅÿ.
-Q
-java:S1144Ş"3Remove this unused private "testGroupingBy" method.(©©Ëı8¼ÌáËæ.
-[	java:S106—"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8’æúÅÿ.
-[	java:S106¥"9Replace this use of System.out or System.err by a logger.(ì¸ÿëşÿÿÿÿ8Ñ¡¼Æÿ.
-U	java:S106i"9Replace this use of System.out or System.err by a logger.(íïó8…ÄèËæ.
-X	java:S125"<This block of commented-out lines of code should be removed.(úº‰÷8¤ÍâÅÿ.
-X
-java:S1144U"6Remove this unused private "testReturnForeach" method.( ù‚Öıÿÿÿÿ8Õı‡Êè.
-]	java:S125"<This block of commented-out lines of code should be removed.(¬ÒŸÈÿÿÿÿÿ8¤ÍâÅÿ.
 M
-java:S1144,"0Remove this unused private "testSetSoet" method.(öß‰8Œ÷Åÿ.
-^	java:S125à"<This block of commented-out lines of code should be removed.(è„£¬øÿÿÿÿ8¤ÍâÅÿ.
-T	java:S1062"9Replace this use of System.out or System.err by a logger.(™¬öA8Ê¿¸ë.
-X	java:S125$"<This block of commented-out lines of code should be removed.(Ï³ÿó8¤ÍâÅÿ.
+java:S1144,"0Remove this unused private "testSetSoet" method.(öß‰8Æú»/
+Y
+java:S1144o"7Remove this unused private "testDistinctObject" method.(üşªÈüÿÿÿÿ8Æú»/
+N
+java:S1144õ"+Remove this unused private "genKey" method.(´òş·øÿÿÿÿ8Ë˜ÊÌ.
+V	java:S106˜"9Replace this use of System.out or System.err by a logger.(ã€‡’8Æú»/
+V	java:S106²"9Replace this use of System.out or System.err by a logger.(Ñ®§Ê8ˆø¢Â.
+N
+java:S1602t",Remove useless curly braces around statement(âÑşùÿÿÿÿ8Æú»/
+V	java:S106”"9Replace this use of System.out or System.err by a logger.(ã€‡’8Æú»/
+X
+java:S1144U"6Remove this unused private "testReturnForeach" method.( ù‚Öıÿÿÿÿ8Æú»/
+[	java:S106¦"9Replace this use of System.out or System.err by a logger.(ì¸ÿëşÿÿÿÿ8Æú»/
+]	java:S125!"<This block of commented-out lines of code should be removed.(®Ëî”ûÿÿÿÿ8Æú»/
+[	java:S106×"9Replace this use of System.out or System.err by a logger.(‘ÊÀ§øÿÿÿÿ8ÜÉ£Á.
+G
+java:S1481º")Remove this unused "test" local variable.(¬§•«8çß¨¤Á.
+[	java:S106š"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8Æú»/
+Y	java:S125—"<This block of commented-out lines of code should be removed.(´×¸å8¤ÍâÅÿ.
+[	java:S106—"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8Æú»/
+Q
+java:S1144ß"3Remove this unused private "testGroupingBy" method.(©©Ëı8¼ÌáËæ.
 ^
-java:S1144@"ARemove this unused private "testDistinctManySameProperty" method.(‘ÙšŞ8Ê–ƒ¸ë.
-Y	java:S125Š"<This block of commented-out lines of code should be removed.(ß•œˆ8¤ÍâÅÿ.
-Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ñŠõıÿÿÿÿ8µìÓ¶ë.
-U	java:S106’"9Replace this use of System.out or System.err by a logger.(¸­à8ıÁ¸™Ä.
-Y	java:S125ª"<This block of commented-out lines of code should be removed.(§ò”Ä8¤ÍâÅÿ.
-V	java:S106˜"9Replace this use of System.out or System.err by a logger.(ã€‡’8’æúÅÿ.
-V	java:S106"9Replace this use of System.out or System.err by a logger.(ã€‡’8ıüÅÿ.
+java:S1144@"ARemove this unused private "testDistinctManySameProperty" method.(‘ÙšŞ8Æú»/
+[	java:S106“"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8Æú»/
+W	java:S125"<This block of commented-out lines of code should be removed.(½Ÿç&8¤ÍâÅÿ.
+P
+java:S1144®"-Remove this unused private "testHeap" method.(…—ÀÍøÿÿÿÿ8Ÿé•Ä.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ñŠõıÿÿÿÿ8Æú»/
+]	java:S125&"<This block of commented-out lines of code should be removed.(ñ…—éøÿÿÿÿ8Æú»/
+U	java:S106i"9Replace this use of System.out or System.err by a logger.(íïó8Æú»/
+X	java:S125$"<This block of commented-out lines of code should be removed.(Ï³ÿó8Æú»/
+V
+java:S1854º"8Remove this useless assignment to local variable "test".(¬§•«8¤ÍâÅÿ.
+Y	java:S125‹"<This block of commented-out lines of code should be removed.(ß•œˆ8¤ÍâÅÿ.
+V	java:S106¨"9Replace this use of System.out or System.err by a logger.(ÏüşÑ8Æú»/
+i
+java:S1192”"KDefine a constant instead of duplicating this literal "----------" 3 times.(ã€‡’8Æú»/
+U
+java:S3958°"2Refactor the code so this stream pipeline is used.(İÑüÿÿÿÿ8ëˆæ•Ä.
+Y	java:S125"<This block of commented-out lines of code should be removed.(´×¸å8¤ÍâÅÿ.
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ËãÌÿÿÿÿÿ8Æú»/
+Y	java:S125«"<This block of commented-out lines of code should be removed.(§ò”Ä8¤ÍâÅÿ.
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(¢Êú8Æú»/
+V	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ã€‡’8Æú»/
+Y	java:S125„"<This block of commented-out lines of code should be removed.(ß•œˆ8¤ÍâÅÿ.
+V
+java:S1144d"4Remove this unused private "testStreamCount" method.(ÉüªÌûÿÿÿÿ8Æú»/
 I
-java:S1144¸"+Remove this unused private "testOf" method.(üº±Ñ8¦´ø¢Â.
-Z	java:S106{"9Replace this use of System.out or System.err by a logger.(ÆÄ¥¸şÿÿÿÿ8«ö¼•Å.
+java:S1144¹"+Remove this unused private "testOf" method.(üº±Ñ8¦´ø¢Â.
+V	java:S106•"9Replace this use of System.out or System.err by a logger.(ò•†–8Æú»/
+T	java:S1062"9Replace this use of System.out or System.err by a logger.(™¬öA8Æú»/
+[	java:S106ì"9Replace this use of System.out or System.err by a logger.(ÌäãÛşÿÿÿÿ8¢ÏàËæ.
+]	java:S125"<This block of commented-out lines of code should be removed.(èøÉÑûÿÿÿÿ8¤ÍâÅÿ.
+U	java:S106’"9Replace this use of System.out or System.err by a logger.(¸­à8Æú»/
+N
+java:S1144Ê"0Remove this unused private "testFlatMap" method.(ìçÏ˜8¦´ø¢Â.
+X	java:S125"<This block of commented-out lines of code should be removed.(úº‰÷8¤ÍâÅÿ.
+X	java:S125"<This block of commented-out lines of code should be removed.(ê™í8Æú»/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8Æú»/
+Z	java:S106{"9Replace this use of System.out or System.err by a logger.(ÆÄ¥¸şÿÿÿÿ8Æú»/
+]	java:S125"<This block of commented-out lines of code should be removed.(¬ÒŸÈÿÿÿÿÿ8¤ÍâÅÿ.
+^	java:S125ı"<This block of commented-out lines of code should be removed.(õ–ôÄùÿÿÿÿ8¤ÍâÅÿ.
+^	java:S125¡"<This block of commented-out lines of code should be removed.(¿Õä×üÿÿÿÿ8¤ÍâÅÿ.
