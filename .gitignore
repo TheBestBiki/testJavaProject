@@ -30,11 +30,11 @@ upload/
 /**/application-utf-8dev.properties
 /**/logs/
 
-
-# intellj file
-*.idea/
-*.xml
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
+*.ipr
 
 # eclipse
 .classpath
