@@ -8,7 +8,7 @@ import java.util.Objects;
  * @version 1.0
  * @date 2020/8/22
  */
-public class TestClass {
+public class TestClass implements Comparable<TestClass> {
 
     private String pro1;
 
@@ -98,16 +98,29 @@ public class TestClass {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof TestClass)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
         TestClass testClass = (TestClass) o;
         return Objects.equals(pro1, testClass.pro1) &&
                 Objects.equals(pro2, testClass.pro2) &&
                 Objects.equals(pro3, testClass.pro3) &&
-                Objects.equals(strList, testClass.strList);
+                Objects.equals(strList, testClass.strList) &&
+                Objects.equals(sonList, testClass.sonList);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(pro1, pro2, pro3, strList);
+        return Objects.hash(pro1, pro2, pro3, strList, sonList);
+    }
+
+    @Override
+    public int compareTo(TestClass o) {
+        int i = this.getPro1().compareTo(o.getPro1());
+        if( i> 0){
+            return 1;
+        }else if (i==0) {
+            return 0;
+        }else{
+            return -1;
+        }
     }
 }
