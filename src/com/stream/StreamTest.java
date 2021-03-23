@@ -3,6 +3,7 @@ package com.stream;
 import com.String.StringA;
 import com.String.StringB;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -15,6 +16,9 @@ import java.util.stream.Stream;
 public class StreamTest {
 
     public static void main(String[] args) {
+
+        //testReduce();
+
         /*StreamTest streamTest = new StreamTest();
         streamTest.testGroupingBy();*/
 
@@ -26,7 +30,7 @@ public class StreamTest {
 
         //testHeap();
 
-        testSorted();
+        //testSorted();
 
         //testDistinctObject();
 
@@ -36,6 +40,25 @@ public class StreamTest {
         //testDistinctManySameProperty();
 
         //testSetSoet();
+    }
+
+    /**
+     * 测试将流的方法reduce
+     */
+    private static void testReduce() {
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        // 1st argument, init value = 0
+        int sum = Arrays.stream(numbers).reduce(0, (a, b) -> a + b);
+        int sum2 = Arrays.stream(numbers).reduce(Integer :: sum).getAsInt();
+        System.out.println(sum);
+        System.out.println(sum2);
+        
+        List<BigDecimal> list = new ArrayList<>();
+        list.add(new BigDecimal(1));
+        list.add(new BigDecimal(2));
+        list.add(new BigDecimal(3));
+        BigDecimal bigDecimal = list.stream().reduce(BigDecimal::add).get();
     }
 
     /**

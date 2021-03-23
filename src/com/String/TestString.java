@@ -19,12 +19,7 @@ public class TestString {
     public final static List<String> buyerList =  Arrays.asList("SCBUYER","11");
 
     public static void main(String[] args) throws UnsupportedEncodingException {
-        //1000 0100   123
-        //1111 1011
-        //1111 1100
-        byte[] a = {(byte) 0x84};
-        System.out.println(a[0]);
-        System.out.println(new String(a,"UTF-8"));
+
 
         //==============================================
 

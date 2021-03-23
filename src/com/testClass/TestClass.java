@@ -1,5 +1,7 @@
 package com.testClass;
 
+import java.util.Objects;
+
 /**
  * @author o-Biki.huang
  * @version 1.0
@@ -8,7 +10,32 @@ package com.testClass;
 public class TestClass extends Class2 {
 
     private String aa;
+    private String bb;
+    private String cc;
 
+    public String getAa() {
+        return aa;
+    }
+
+    public void setAa(String aa) {
+        this.aa = aa;
+    }
+
+    public String getBb() {
+        return bb;
+    }
+
+    public void setBb(String bb) {
+        this.bb = bb;
+    }
+
+    public String getCc() {
+        return cc;
+    }
+
+    public void setCc(String cc) {
+        this.cc = cc;
+    }
 
     //private SonnClass bb = new SonnClass();
 
@@ -62,7 +89,20 @@ public class TestClass extends Class2 {
         }
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof TestClass)) return false;
+        TestClass testClass = (TestClass) o;
+        return Objects.equals(aa, testClass.aa) &&
+                Objects.equals(bb, testClass.bb) &&
+                Objects.equals(cc, testClass.cc);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(aa, bb, cc);
+    }
 }
 
 
