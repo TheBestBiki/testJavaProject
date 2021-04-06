@@ -1,5 +1,8 @@
 package com.interfaceTest;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author o-Biki.huang
  * @version 1.0
@@ -8,9 +11,21 @@ package com.interfaceTest;
 public class FunsInterfaceImpl  {
 
     public static void main(String[] args) {
-        FunsInterface f = (a,b)->{
-          System.out.println();
+        // 最原始的写法
+        /*FunsInterface b = new FunsInterface(){
+            @Override
+            public void test(String a, String b) {
+
+            }
         };
+
+        //简写
+        FunsInterface f = (c,d)->{
+            System.out.println();
+        };*/
+
+
+
     }
 
 }

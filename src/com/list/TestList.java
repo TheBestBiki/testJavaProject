@@ -20,6 +20,10 @@ public class TestList {
 
 
     public static void main(String[] args) {
+
+        testAddress();
+
+        //==================================================
         //main2(); // 测试增强for循环的指针
         //main3(); // 测试List，用foreach后还会不会按添加顺序读取展示
         //testStreamForeachList();
@@ -46,13 +50,26 @@ public class TestList {
 
         //testContains();
 
-        testListToArray();
+        //testListToArray();
 
         // =============================================================
 
         //Collections.sort(users, Comparator.comparing(User::getName));  //排序
         //List<Integer> list = new ArrayList<>();
         //System.out.println(list.contains(2)); // 结果false
+    }
+
+    /**
+     * 换地址
+     */
+    private static void testAddress() {
+        List<String> list = null;
+        if(1==1){
+            List<String> list1 = new ArrayList<>(Arrays.asList("1","2","3"));
+            list = list1;
+        }
+        System.out.println(list);
+
     }
 
     /**

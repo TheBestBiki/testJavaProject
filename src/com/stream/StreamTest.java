@@ -17,6 +17,8 @@ public class StreamTest {
 
     public static void main(String[] args) {
 
+        //testEmptyList();
+
         //testReduce();
 
         /*StreamTest streamTest = new StreamTest();
@@ -40,6 +42,12 @@ public class StreamTest {
         //testDistinctManySameProperty();
 
         //testSetSoet();
+    }
+
+    private static void testEmptyList() {
+        List<String> list = new ArrayList<>();
+        list = list.stream().filter(Objects::nonNull).distinct().collect(Collectors.toList());
+        System.out.println(list.isEmpty());
     }
 
     /**
